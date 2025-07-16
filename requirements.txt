@@ -1,0 +1,11 @@
+pdfplumber 
+spacy 
+sentence-transformers 
+faiss-cpu 
+psutil 
+watchdog 
+pytest
+numpy
+
+
+# python -m spacy download en_core_web_sm
