@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech Solutions - Sustainability Report 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8fafc;
+        }
+        
+        .report-container {
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .page-break {
+            page-break-after: always;
+            break-after: page;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #059669 0%, #0891b2 100%);
+        }
+        
+        .accent-green {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        }
+        
+        .accent-blue {
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 20px 0;
+        }
+        
+        .kpi-card {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 4px solid #0891b2;
+        }
+        
+        .recommendation-card {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            border-left: 4px solid #059669;
+        }
+        
+        .print-friendly {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        .floating-nav {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            background: #f1f5f9;
+            transform: translateX(4px);
+        }
+        
+        .metric-trend-up {
+            color: #059669;
+        }
+        
+        .metric-trend-down {
+            color: #dc2626;
+        }
+        
+        .section-divider {
+            background: linear-gradient(90deg, #059669, #0891b2, #059669);
+            height: 2px;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+    <!-- Floating Navigation -->
+    <div class="floating-nav">
+        <h3 class="text-sm font-semibold text-slate-700 mb-3">Report Navigation</h3>
+        <nav class="space-y-2">
+            <a href="#executive-summary" class="nav-link block text-xs text-slate-600 hover:text-slate-900 py-1 px-2 rounded">
+                <i class="fas fa-chart-line mr-2"></i>Executive Summary
+            </a>
+            <a href="#company-profile" class="nav-link block text-xs text-slate-600 hover:text-slate-900 py-1 px-2 rounded">
+                <i class="fas fa-building mr-2"></i>Company Profile
+            </a>
+            <a href="#performance" class="nav-link block text-xs text-slate-600 hover:text-slate-900 py-1 px-2 rounded">
+                <i class="fas fa-chart-pie mr-2"></i>Performance
+            </a>
+            <a href="#analysis" class="nav-link block text-xs text-slate-600 hover:text-slate-900 py-1 px-2 rounded">
+                <i class="fas fa-chart-bar mr-2"></i>Analysis
+            </a>
+            <a href="#insights" class="nav-link block text-xs text-slate-600 hover:text-slate-900 py-1 px-2 rounded">
+                <i class="fas fa-lightbulb mr-2"></i>Insights
+            </a>
+            <a href="#conclusion" class="nav-link block text-xs text-slate-600 hover:text-slate-900 py-1 px-2 rounded">
+                <i class="fas fa-lightbulb mr-2"></i>Conclusion
+            </a>
+            <button id="downloadBtn" class="w-full mt-4 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white py-2 px-4 rounded-lg font-medium text-xs flex items-center justify-center">
+                <i class="fas fa-file-pdf mr-2"></i> Download PDF
+            </button>
+        </nav>
+    </div>
+
+    <div class="report-container print-friendly">
+        <!-- Cover Page -->
+        <div class="gradient-bg text-white p-16 min-h-screen flex flex-col justify-center items-center text-center page-break">
+            <div class="mb-8">
+                <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-12 h-12 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 10 9 10s9-4.45 9-10V7l-10-5zm0 2.18l7 3.5v8.32c0 4.45-2.84 8-7 8s-7-3.55-7-8V7.68l7-3.5z"/>
+                        <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                    </svg>
+                </div>
+                <h1 class="text-5xl font-bold mb-4">Sustainability Report</h1>
+                <h2 class="text-3xl font-light mb-8">2024</h2>
+            </div>
+            
+            <div class="text-xl font-medium mb-12">
+                <div class="mb-4">EcoTech Solutions</div>
+                <div class="text-lg font-light">Building a Sustainable Future</div>
+            </div>
+            
+            <div class="bg-white/20 backdrop-blur rounded-lg p-8 max-w-2xl">
+                <div class="grid grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="text-3xl font-bold">45%</div>
+                        <div class="text-sm">Carbon Reduction</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold">2.3M</div>
+                        <div class="text-sm">Lives Impacted</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold">$50M</div>
+                        <div class="text-sm">Green Investment</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-sm">
+                <p>Published: March 2024</p>
+                <p>Reporting Period: January 2023 - December 2023</p>
+            </div>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="p-16 page-break">
+            <h1 class="text-3xl font-bold text-slate-800 mb-12">Table of Contents</h1>
+            <div class="space-y-4">
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">Executive Summary</span>
+                    <span class="text-slate-600">3</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">1. Introduction</span>
+                    <span class="text-slate-600">4</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">2. Company Profile</span>
+                    <span class="text-slate-600">5</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">3. Sustainability Performance</span>
+                    <span class="text-slate-600">6</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">4. Detailed Analysis</span>
+                    <span class="text-slate-600">8</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">5. Sustainability Insights</span>
+                    <span class="text-slate-600">12</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">6. Stakeholder Engagement</span>
+                    <span class="text-slate-600">15</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">7. Benchmarking</span>
+                    <span class="text-slate-600">16</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">8. Case Studies</span>
+                    <span class="text-slate-600">17</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">9. Future Goals</span>
+                    <span class="text-slate-600">18</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">10. Conclusion</span>
+                    <span class="text-slate-600">19</span>
+                </div>
+                <div class="flex justify-between items-center py-3 border-b border-slate-200">
+                    <span class="text-lg font-medium">11. Appendices</span>
+                    <span class="text-slate-600">20</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Summary -->
+        <div id="executive-summary" class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Executive Summary</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div class="kpi-card p-6 rounded-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-slate-800">Carbon Footprint</h3>
+                        <span class="metric-trend-up text-2xl">↓</span>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800">45%</div>
+                    <div class="text-sm text-slate-600">Reduction since 2020</div>
+                </div>
+                
+                <div class="kpi-card p-6 rounded-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-slate-800">Renewable Energy</h3>
+                        <span class="metric-trend-up text-2xl">↑</span>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800">78%</div>
+                    <div class="text-sm text-slate-600">Of total energy consumption</div>
+                </div>
+                
+                <div class="kpi-card p-6 rounded-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-slate-800">Waste Diversion</h3>
+                        <span class="metric-trend-up text-2xl">↑</span>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800">92%</div>
+                    <div class="text-sm text-slate-600">From landfills</div>
+                </div>
+                
+                <div class="kpi-card p-6 rounded-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-slate-800">Employee Satisfaction</h3>
+                        <span class="metric-trend-up text-2xl">↑</span>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800">87%</div>
+                    <div class="text-sm text-slate-600">Positive engagement score</div>
+                </div>
+            </div>
+            
+            <div class="prose max-w-none">
+                <p class="text-lg text-slate-700 mb-6">
+                    In 2023, EcoTech Solutions achieved remarkable progress in our sustainability journey, demonstrating our unwavering commitment to environmental stewardship and social responsibility. This comprehensive report outlines our achievements, challenges, and strategic roadmap for creating a more sustainable future.
+                </p>
+                
+                <p class="text-lg text-slate-700 mb-6">
+                    Our most significant achievement was the 45% reduction in carbon emissions compared to our 2020 baseline, surpassing our initial target of 40%. This was accomplished through our comprehensive renewable energy transition, operational efficiency improvements, and innovative carbon capture technologies.
+                </p>
+                
+                <p class="text-lg text-slate-700">
+                    Looking ahead, we have set ambitious goals for 2025, including achieving carbon neutrality across all operations, expanding our positive impact to 5 million lives globally, and maintaining our position as an industry leader in sustainable business practices.
+                </p>
+            </div>
+        </div>
+
+        <!-- Company Profile -->
+        <div id="company-profile" class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Company Profile</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-12 mb-12">
+                <div>
+                    <div class="bg-gradient-to-br from-emerald-50 to-blue-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">Our Mission</h3>
+                        <p class="text-slate-700">
+                            To accelerate the world's transition to sustainable technology solutions while creating positive impact for communities and the environment.
+                        </p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">Our Vision</h3>
+                        <p class="text-slate-700">
+                            A world where technology and sustainability work in harmony to create a thriving planet for future generations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-8 mb-12">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-emerald-600 mb-2">15+</div>
+                    <div class="text-slate-600">Years of Experience</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-emerald-600 mb-2">2,500+</div>
+                    <div class="text-slate-600">Global Employees</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-emerald-600 mb-2">45</div>
+                    <div class="text-slate-600">Countries Served</div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-50 p-8 rounded-lg">
+                <h3 class="text-xl font-bold text-slate-800 mb-4">Core Values</h3>
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-slate-800 mb-2">🌱 Environmental Stewardship</h4>
+                        <p class="text-slate-600 text-sm">We prioritize the health of our planet in every decision we make.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-slate-800 mb-2">🤝 Social Responsibility</h4>
+                        <p class="text-slate-600 text-sm">We believe in creating positive impact for all stakeholders.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-slate-800 mb-2">🔬 Innovation</h4>
+                        <p class="text-slate-600 text-sm">We continuously push the boundaries of sustainable technology.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-slate-800 mb-2">🌍 Global Impact</h4>
+                        <p class="text-slate-600 text-sm">We strive to make a meaningful difference worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sustainability Performance -->
+        <div id="performance" class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Sustainability Performance</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Current Practices Overview</h2>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="bg-emerald-50 p-6 rounded-lg border border-emerald-200">
+                        <h3 class="text-lg font-semibold text-emerald-800 mb-3">Environmental</h3>
+                        <ul class="text-sm text-emerald-700 space-y-1">
+                            <li>• Carbon neutral operations</li>
+                            <li>• Renewable energy transition</li>
+                            <li>• Circular economy practices</li>
+                            <li>• Biodiversity conservation</li>
+                        </ul>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                        <h3 class="text-lg font-semibold text-blue-800 mb-3">Social</h3>
+                        <ul class="text-sm text-blue-700 space-y-1">
+                            <li>• Employee wellbeing programs</li>
+                            <li>• Community development</li>
+                            <li>• Diversity & inclusion</li>
+                            <li>• Human rights protection</li>
+                        </ul>
+                    </div>
+                    <div class="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                        <h3 class="text-lg font-semibold text-purple-800 mb-3">Governance</h3>
+                        <ul class="text-sm text-purple-700 space-y-1">
+                            <li>• Ethical business practices</li>
+                            <li>• Transparent reporting</li>
+                            <li>• Risk management</li>
+                            <li>• Stakeholder engagement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">ESG Compliance Summary</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead>
+                            <tr class="bg-slate-50">
+                                <th class="text-left p-3 font-semibold text-slate-700">Framework</th>
+                                <th class="text-left p-3 font-semibold text-slate-700">Compliance Level</th>
+                                <th class="text-left p-3 font-semibold text-slate-700">Score</th>
+                                <th class="text-left p-3 font-semibold text-slate-700">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b">
+                                <td class="p-3">GRI Standards</td>
+                                <td class="p-3">Core</td>
+                                <td class="p-3">
+                                    <div class="flex items-center">
+                                        <div class="w-16 h-2 bg-emerald-200 rounded-full mr-2">
+                                            <div class="w-4/5 h-2 bg-emerald-500 rounded-full"></div>
+                                        </div>
+                                        <span class="text-sm">92%</span>
+                                    </div>
+                                </td>
+                                <td class="p-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-1 rounded-full text-xs">Compliant</span></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-3">SASB Standards</td>
+                                <td class="p-3">Industry-Specific</td>
+                                <td class="p-3">
+                                    <div class="flex items-center">
+                                        <div class="w-16 h-2 bg-blue-200 rounded-full mr-2">
+                                            <div class="w-4/5 h-2 bg-blue-500 rounded-full"></div>
+                                        </div>
+                                        <span class="text-sm">88%</span>
+                                    </div>
+                                </td>
+                                <td class="p-3"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">Compliant</span></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-3">TCFD</td>
+                                <td class="p-3">Comprehensive</td>
+                                <td class="p-3">
+                                    <div class="flex items-center">
+                                        <div class="w-16 h-2 bg-purple-200 rounded-full mr-2">
+                                            <div class="w-3/4 h-2 bg-purple-500 rounded-full"></div>
+                                        </div>
+                                        <span class="text-sm">85%</span>
+                                    </div>
+                                </td>
+                                <td class="p-3"><span class="bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs">Compliant</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-3">UN Global Compact</td>
+                                <td class="p-3">Active</td>
+                                <td class="p-3">
+                                    <div class="flex items-center">
+                                        <div class="w-16 h-2 bg-green-200 rounded-full mr-2">
+                                            <div class="w-full h-2 bg-green-500 rounded-full"></div>
+                                        </div>
+                                        <span class="text-sm">95%</span>
+                                    </div>
+                                </td>
+                                <td class="p-3"><span class="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">Compliant</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Analysis -->
+        <div id="analysis" class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Detailed Analysis</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <!-- Environmental Impact -->
+            <div class="mb-16">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Environmental Impact</h2>
+                <div class="grid grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <canvas id="emissionsChart" class="w-full h-64"></canvas>
+                    </div>
+                    <div>
+                        <canvas id="energyChart" class="w-full h-64"></canvas>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-4 gap-4 mb-8">
+                    <div class="text-center p-4 bg-emerald-50 rounded-lg">
+                        <div class="text-2xl font-bold text-emerald-600">15,420</div>
+                        <div class="text-sm text-slate-600">tCO2e Saved</div>
+                    </div>
+                    <div class="text-center p-4 bg-blue-50 rounded-lg">
+                        <div class="text-2xl font-bold text-blue-600">2.3M</div>
+                        <div class="text-sm text-slate-600">kWh Renewable</div>
+                    </div>
+                    <div class="text-center p-4 bg-purple-50 rounded-lg">
+                        <div class="text-2xl font-bold text-purple-600">89%</div>
+                        <div class="text-sm text-slate-600">Water Recycled</div>
+                    </div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg">
+                        <div class="text-2xl font-bold text-green-600">450</div>
+                        <div class="text-sm text-slate-600">Tons Diverted</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Responsibility -->
+            <div class="mb-16">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Social Responsibility</h2>
+                <div class="grid grid-cols-2 gap-8">
+                    <div>
+                        <canvas id="diversityChart" class="w-full h-64"></canvas>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-semibold text-slate-800 mb-4">Community Impact</h3>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-600">Education Programs</span>
+                                <span class="font-semibold">15,000 students</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-600">Healthcare Access</span>
+                                <span class="font-semibold">8,500 families</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-600">Clean Water Projects</span>
+                                <span class="font-semibold">23 communities</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-600">Job Creation</span>
+                                <span class="font-semibold">1,200 positions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Governance -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Governance</h2>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-semibold text-blue-800 mb-3">Board Diversity</h3>
+                        <div class="text-3xl font-bold text-blue-600 mb-2">40%</div>
+                        <div class="text-sm text-slate-600">Women representation</div>
+                    </div>
+                    <div class="bg-purple-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-semibold text-purple-800 mb-3">Ethics Training</h3>
+                        <div class="text-3xl font-bold text-purple-600 mb-2">100%</div>
+                        <div class="text-sm text-slate-600">Employee completion</div>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-lg font-semibold text-green-800 mb-3">Transparency Score</h3>
+                        <div class="text-3xl font-bold text-green-600 mb-2">95%</div>
+                        <div class="text-sm text-slate-600">Stakeholder rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sustainability Insights -->
+        <div id="insights" class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Sustainability Insights</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <!-- Materiality Assessment -->
+            <div class="mb-16">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Materiality Assessment</h2>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <canvas id="materialityChart" class="w-full h-96"></canvas>
+                </div>
+                <div class="mt-6 text-sm text-slate-600">
+                    <p><strong>High Impact, High Influence:</strong> Climate Action, Energy Transition, Circular Economy</p>
+                    <p><strong>High Impact, Medium Influence:</strong> Biodiversity, Water Management, Supply Chain</p>
+                    <p><strong>Medium Impact, High Influence:</strong> Employee Wellbeing, Community Development</p>
+                </div>
+            </div>
+            
+            <!-- Recommendations -->
+            <div class="mb-16">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Recommendations for Better Sustainability Performance</h2>
+                <div class="space-y-6">
+                    <div class="recommendation-card p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Recommendation 1: Accelerate Carbon Neutrality</h3>
+                        <p class="text-slate-700 mb-3">Implement advanced carbon capture technologies and expand renewable energy infrastructure to achieve net-zero emissions by 2025.</p>
+                        <div class="bg-white p-4 rounded-lg">
+                            <strong class="text-slate-800">Rationale:</strong> 
+                            <span class="text-slate-700">Current trajectory shows 45% reduction achieved. With focused investment in emerging technologies and strategic partnerships, we can accelerate progress by 24 months while maintaining operational efficiency.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Recommendation 2: Expand Circular Economy Initiatives</h3>
+                        <p class="text-slate-700 mb-3">Develop comprehensive waste-to-resource programs and establish closed-loop manufacturing processes across all production facilities.</p>
+                        <div class="bg-white p-4 rounded-lg">
+                            <strong class="text-slate-800">Rationale:</strong> 
+                            <span class="text-slate-700">Analysis shows 30% potential cost reduction through circular practices. Current 92% waste diversion rate provides strong foundation for full circular transformation.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Recommendation 3: Strengthen Supply Chain Sustainability</h3>
+                        <p class="text-slate-700 mb-3">Implement comprehensive supplier sustainability assessments and establish sustainability-linked procurement policies.</p>
+                        <div class="bg-white p-4 rounded-lg">
+                            <strong class="text-slate-800">Rationale:</strong> 
+                            <span class="text-slate-700">Supply chain represents 65% of total environmental impact. Systematic approach to supplier engagement can reduce scope 3 emissions by 35% within 18 months.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Performance Indicators -->
+            <div class="mb-16">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Performance Indicators</h2>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="overflow-x-auto">
+                        <table class="w-full">
+                            <thead>
+                                <tr class="bg-slate-50">
+                                    <th class="text-left p-4 font-semibold text-slate-700">KPI</th>
+                                    <th class="text-left p-4 font-semibold text-slate-700">Current Value</th>
+                                    <th class="text-left p-4 font-semibold text-slate-700">Target Value</th>
+                                    <th class="text-left p-4 font-semibold text-slate-700">Trend</th>
+                                    <th class="text-left p-4 font-semibold text-slate-700">Industry Benchmark</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b">
+                                    <td class="p-4 font-medium">Carbon Emissions (tCO2e)</td>
+                                    <td class="p-4">18,500</td>
+                                    <td class="p-4">0 (2025)</td>
+                                    <td class="p-4"><span class="metric-trend-up">↓ 45%</span></td>
+                                    <td class="p-4">25,000</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="p-4 font-medium">Water Usage (ML)</td>
+                                    <td class="p-4">890</td>
+                                    <td class="p-4">650 (2025)</td>
+                                    <td class="p-4"><span class="metric-trend-up">↓ 27%</span></td>
+                                    <td class="p-4">1,200</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="p-4 font-medium">Employee Diversity (%)</td>
+                                    <td class="p-4">48%</td>
+                                    <td class="p-4">55% (2025)</td>
+                                    <td class="p-4"><span class="metric-trend-up">↑ 12%</span></td>
+                                    <td class="p-4">42%</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="p-4 font-medium">Renewable Energy (%)</td>
+                                    <td class="p-4">78%</td>
+                                    <td class="p-4">100% (2025)</td>
+                                    <td class="p-4"><span class="metric-trend-up">↑ 28%</span></td>
+                                    <td class="p-4">52%</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-4 font-medium">Waste Diversion (%)</td>
+                                    <td class="p-4">92%</td>
+                                    <td class="p-4">98% (2025)</td>
+                                    <td class="p-4"><span class="metric-trend-up">↑ 15%</span></td>
+                                    <td class="p-4">75%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stakeholder Engagement -->
+        <div class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Stakeholder Engagement</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div class="bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-lg">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Engagement Overview</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-600">Annual Stakeholder Survey</span>
+                            <span class="font-semibold">8,500 responses</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-600">Community Forums</span>
+                            <span class="font-semibold">24 sessions</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-600">Investor Meetings</span>
+                            <span class="font-semibold">52 engagements</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-600">Employee Feedback</span>
+                            <span class="font-semibold">95% participation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-emerald-50 to-blue-50 p-8 rounded-lg">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Key Feedback Themes</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-emerald-500 rounded-full mr-3"></div>
+                            <span class="text-slate-700">Climate action urgency</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+                            <span class="text-slate-700">Transparency improvements</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
+                            <span class="text-slate-700">Community investment</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                            <span class="text-slate-700">Innovation leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-slate-800 mb-6">Stakeholder Satisfaction Scores</h3>
+                <canvas id="stakeholderChart" class="w-full h-64"></canvas>
+            </div>
+        </div>
+
+        <!-- Benchmarking -->
+        <div class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Benchmarking</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6">Industry Comparison</h2>
+                <canvas id="benchmarkChart" class="w-full h-80"></canvas>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-emerald-50 p-6 rounded-lg border border-emerald-200">
+                    <h3 class="text-lg font-semibold text-emerald-800 mb-3">Environmental Leadership</h3>
+                    <div class="text-3xl font-bold text-emerald-600 mb-2">#1</div>
+                    <div class="text-sm text-slate-600">In carbon reduction</div>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                    <h3 class="text-lg font-semibold text-blue-800 mb-3">Social Impact</h3>
+                    <div class="text-3xl font-bold text-blue-600 mb-2">#2</div>
+                    <div class="text-sm text-slate-600">Community development</div>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                    <h3 class="text-lg font-semibold text-purple-800 mb-3">Governance</h3>
+                    <div class="text-3xl font-bold text-purple-600 mb-2">#1</div>
+                    <div class="text-sm text-slate-600">Transparency rating</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Studies -->
+        <div class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Case Studies</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="space-y-12">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">Solar Transformation Initiative</h2>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <p class="text-slate-700 mb-4">
+                                Our comprehensive solar transformation initiative converted 15 manufacturing facilities to 100% renewable energy, resulting in a 60% reduction in operational carbon emissions.
+                            </p>
+                            <div class="bg-emerald-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-emerald-800 mb-2">Key Results</h4>
+                                <ul class="text-sm text-emerald-700 space-y-1">
+                                    <li>• 12,000 tCO2e annual reduction</li>
+                                    <li>• $2.3M cost savings annually</li>
+                                    <li>• 18-month ROI achieved</li>
+                                    <li>• 500 local jobs created</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-br from-yellow-100 to-orange-100 p-6 rounded-lg flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-6xl mb-4">☀️</div>
+                                <div class="text-2xl font-bold text-orange-800">15 MW</div>
+                                <div class="text-sm text-orange-700">Solar Capacity</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">Community Water Access Project</h2>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div class="bg-gradient-to-br from-blue-100 to-cyan-100 p-6 rounded-lg flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-6xl mb-4">💧</div>
+                                <div class="text-2xl font-bold text-blue-800">50,000</div>
+                                <div class="text-sm text-blue-700">People Served</div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-slate-700 mb-4">
+                                Partnership with local communities to provide clean water access through sustainable infrastructure development and water purification systems.
+                            </p>
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-blue-800 mb-2">Impact Metrics</h4>
+                                <ul class="text-sm text-blue-700 space-y-1">
+                                    <li>• 23 water treatment facilities built</li>
+                                    <li>• 89% reduction in waterborne illness</li>
+                                    <li>• 15,000 students benefited</li>
+                                    <li>• 95% community satisfaction</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Future Goals -->
+        <div class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Future Goals</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div class="bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-emerald-800 mb-4">2025 Targets</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Carbon Neutrality</span>
+                            <span class="font-semibold text-emerald-600">100%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Renewable Energy</span>
+                            <span class="font-semibold text-emerald-600">100%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Waste Diversion</span>
+                            <span class="font-semibold text-emerald-600">98%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Lives Impacted</span>
+                            <span class="font-semibold text-emerald-600">5M</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">2030 Vision</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Net Positive Impact</span>
+                            <span class="font-semibold text-blue-600">Climate+</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Circular Economy</span>
+                            <span class="font-semibold text-blue-600">100%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Global Reach</span>
+                            <span class="font-semibold text-blue-600">100 Countries</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-700">Innovation Investment</span>
+                            <span class="font-semibold text-blue-600">$500M</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-slate-800 mb-6">Roadmap Timeline</h3>
+                <div class="space-y-6">
+                    <div class="flex items-center">
+                        <div class="w-4 h-4 bg-emerald-500 rounded-full mr-4"></div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-slate-800">Q2 2024</span>
+                                <span class="text-sm text-slate-600">Carbon Neutral Operations</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-emerald-500 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-4 h-4 bg-blue-500 rounded-full mr-4"></div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-slate-800">Q4 2024</span>
+                                <span class="text-sm text-slate-600">Supply Chain Transformation</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 45%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="w-4 h-4 bg-purple-500 rounded-full mr-4"></div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-slate-800">Q2 2025</span>
+                                <span class="text-sm text-slate-600">Circular Economy Implementation</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-purple-500 h-2 rounded-full" style="width: 25%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div id="conclusion" class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Conclusion</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="prose max-w-none">
+                <p class="text-lg text-slate-700 mb-6">
+                    The year 2023 marked a transformative period for EcoTech Solutions as we accelerated our sustainability journey and achieved unprecedented results across environmental, social, and governance dimensions. Our 45% carbon emission reduction, coupled with significant advances in renewable energy adoption and circular economy practices, demonstrates our unwavering commitment to environmental stewardship.
+                </p>
+                
+                <p class="text-lg text-slate-700 mb-6">
+                    Beyond environmental achievements, we have strengthened our social impact through community development programs, diversity and inclusion initiatives, and ethical business practices. Our governance framework has evolved to ensure transparency, accountability, and stakeholder value creation at every level of our organization.
+                </p>
+                
+                <p class="text-lg text-slate-700 mb-8">
+                    Looking forward, we remain focused on our ambitious 2025 goals while laying the groundwork for our 2030 vision of net-positive impact. Through continued innovation, strategic partnerships, and stakeholder engagement, we are confident in our ability to drive meaningful change in the global sustainability landscape.
+                </p>
+                
+                <div class="bg-gradient-to-r from-emerald-50 to-blue-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Our Commitment</h3>
+                    <p class="text-slate-700">
+                        We pledge to continue pushing the boundaries of sustainable business practices, serving as a catalyst for positive change in our industry and beyond. Together with our stakeholders, we will build a more sustainable, equitable, and prosperous future for all.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appendices -->
+        <div class="p-16 page-break">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-4">Appendices</h1>
+                <div class="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="space-y-12">
+                <!-- Additional Data -->
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-6">Additional Data</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr class="bg-slate-50">
+                                        <th class="text-left p-3">Metric</th>
+                                        <th class="text-left p-3">2021</th>
+                                        <th class="text-left p-3">2022</th>
+                                        <th class="text-left p-3">2023</th>
+                                        <th class="text-left p-3">Change</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b">
+                                        <td class="p-3">Scope 1 Emissions (tCO2e)</td>
+                                        <td class="p-3">8,500</td>
+                                        <td class="p-3">7,200</td>
+                                        <td class="p-3">5,400</td>
+                                        <td class="p-3 text-green-600">-25%</td>
+                                    </tr>
+                                    <tr class="border-b">
+                                        <td class="p-3">Scope 2 Emissions (tCO2e)</td>
+                                        <td class="p-3">22,000</td>
+                                        <td class="p-3">18,500</td>
+                                        <td class="p-3">13,100</td>
+                                        <td class="p-3 text-green-600">-29%</td>
+                                    </tr>
+                                    <tr class="border-b">
+                                        <td class="p-3">Water Consumption (ML)</td>
+                                        <td class="p-3">1,200</td>
+                                        <td class="p-3">1,050</td>
+                                        <td class="p-3">890</td>
+                                        <td class="p-3 text-green-600">-15%</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3">Waste Generation (tonnes)</td>
+                                        <td class="p-3">850</td>
+                                        <td class="p-3">720</td>
+                                        <td class="p-3">580</td>
+                                        <td class="p-3 text-green-600">-19%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Glossary -->
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-6">Glossary</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-slate-800 mb-2">Carbon Neutrality</h4>
+                                <p class="text-sm text-slate-600 mb-4">Achieving net-zero carbon emissions by balancing emissions with removal or offsetting.</p>
+                                
+                                <h4 class="font-semibold text-slate-800 mb-2">Circular Economy</h4>
+                                <p class="text-sm text-slate-600 mb-4">Economic model focused on eliminating waste through reuse, recycling, and regeneration.</p>
+                                
+                                <h4 class="font-semibold text-slate-800 mb-2">ESG</h4>
+                                <p class="text-sm text-slate-600">Environmental, Social, and Governance criteria for measuring sustainability performance.</p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-semibold text-slate-800 mb-2">Materiality Assessment</h4>
+                                <p class="text-sm text-slate-600 mb-4">Process to identify and prioritize sustainability issues most relevant to stakeholders.</p>
+                                
+                                <h4 class="font-semibold text-slate-800 mb-2">Scope 1, 2, 3 Emissions</h4>
+                                <p class="text-sm text-slate-600 mb-4">Direct emissions, indirect energy emissions, and other indirect emissions respectively.</p>
+                                
+                                <h4 class="font-semibold text-slate-800 mb-2">TCFD</h4>
+                                <p class="text-sm text-slate-600">Task Force on Climate-related Financial Disclosures framework.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- References -->
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-6">References</h2>
+                    <p class="text-slate-600">GRI Standards, SASB, TCFD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize all charts
+        document.addEventListener('DOMContentLoaded', function () {
+            // Emissions Chart
+            const emissionsCtx = document.getElementById('emissionsChart').getContext('2d');
+            new Chart(emissionsCtx, {
+                type: 'line',
+                data: {
+                    labels: ['2020', '2021', '2022', '2023'],
+                    datasets: [{
+                        label: 'Carbon Emissions (tCO2e)',
+                        data: [33600, 28500, 22500, 18500],
+                        borderColor: '#059669',
+                        backgroundColor: 'rgba(5, 150, 105, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointBackgroundColor: '#fff',
+                        pointBorderWidth: 2,
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: 'Carbon Emissions Reduction', font: { size: 16 } },
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { beginAtZero: false, title: { display: true, text: 'tCO2e' } }
+                    }
+                }
+            });
+
+            // Energy Mix Chart
+            const energyCtx = document.getElementById('energyChart').getContext('2d');
+            new Chart(energyCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Renewable', 'Natural Gas', 'Grid Electricity'],
+                    datasets: [{
+                        data: [78, 12, 10],
+                        backgroundColor: ['#059669', '#0891b2', '#64748b'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: 'Energy Mix 2023', font: { size: 16 } },
+                        legend: { position: 'right' }
+                    }
+                }
+            });
+
+            // Diversity Chart
+            const diversityCtx = document.getElementById('diversityChart').getContext('2d');
+            new Chart(diversityCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Gender Diversity', 'Ethnic Diversity', 'Leadership Diversity'],
+                    datasets: [
+                        {
+                            label: '2022',
+                            data: [42, 35, 28],
+                            backgroundColor: 'rgba(8, 145, 178, 0.5)',
+                            borderColor: '#0891b2',
+                            borderWidth: 1
+                        },
+                        {
+                            label: '2023',
+                            data: [48, 41, 33],
+                            backgroundColor: '#059669',
+                            borderColor: '#047857',
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: 'Diversity Metrics', font: { size: 16 } }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: { display: true, text: 'Percentage' }
+                        }
+                    }
+                }
+            });
+
+            // Materiality Chart
+            const materialityCtx = document.getElementById('materialityChart').getContext('2d');
+            new Chart(materialityCtx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Material Issues',
+                        data: [
+                            { x: 85, y: 90, r: 20, label: 'Climate Action' },
+                            { x: 80, y: 85, r: 18, label: 'Energy Transition' },
+                            { x: 75, y: 70, r: 15, label: 'Circular Economy' },
+                            { x: 60, y: 85, r: 15, label: 'Water Management' },
+                            { x: 65, y: 60, r: 14, label: 'Biodiversity' },
+                            { x: 50, y: 75, r: 12, label: 'Supply Chain' },
+                            { x: 75, y: 40, r: 16, label: 'Employee Wellbeing' },
+                            { x: 70, y: 35, r: 14, label: 'Community Dev' },
+                            { x: 40, y: 50, r: 10, label: 'Product Safety' },
+                            { x: 45, y: 30, r: 8, label: 'Data Privacy' }
+                        ],
+                        backgroundColor: 'rgba(5, 150, 105, 0.7)',
+                        borderColor: '#047857',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: 'Materiality Matrix', font: { size: 16 } },
+                        tooltip: {
+                            callbacks: {
+                                label: function (context) {
+                                    return context.raw.label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: 'Influence on Stakeholders' },
+                            min: 0,
+                            max: 100
+                        },
+                        y: {
+                            title: { display: true, text: 'Impact on Business' },
+                            min: 0,
+                            max: 100
+                        }
+                    }
+                }
+            });
+
+            // // Stakeholder Satisfaction Chart (No Animation)
+            // const stakeholderCtx = document.getElementById('stakeholderChart').getContext('2d');
+            // new Chart(stakeholderCtx, {
+            //     type: 'radar',
+            //     data: {
+            //         labels: ['Employees', 'Investors', 'Communities', 'Suppliers', 'Customers'],
+            //         datasets: [{
+            //             label: 'Satisfaction Score 2023',
+            //             data: [95, 88, 92, 85, 90],
+            //             backgroundColor: 'rgba(5, 150, 105, 0.2)',
+            //             borderColor: '#059669',
+            //             borderWidth: 2,
+            //             pointBackgroundColor: '#fff',
+            //             pointBorderColor: '#059669',
+            //             pointBorderWidth: 2
+            //         }]
+            //     },
+            //     options: {
+            //         animation: { duration: 0 },
+            //         animations: {},
+            //         transitions: {},
+            //         responsive: true,
+            //         maintainAspectRatio: false,
+            //         plugins: {
+            //             title: { display: true, text: 'Stakeholder Satisfaction 2023', font: { size: 16 } }
+            //         },
+            //         scales: {
+            //             r: {
+            //                 beginAtZero: true,
+            //                 max: 100,
+            //                 ticks: { stepSize: 20 },
+            //                 pointLabels: { font: { size: 12 } }
+            //             }
+            //         }
+            //     }
+            // });
+
+            // // Benchmark Chart (No Animation)
+            // const benchmarkCtx = document.getElementById('benchmarkChart').getContext('2d');
+            // new Chart(benchmarkCtx, {
+            //     type: 'bar',
+            //     data: {
+            //         labels: ['Carbon Reduction', 'Social Impact', 'Governance'],
+            //         datasets: [
+            //             {
+            //                 label: 'EcoTech Solutions',
+            //                 data: [95, 85, 90],
+            //                 backgroundColor: '#059669',
+            //                 borderColor: '#047857',
+            //                 borderWidth: 1
+            //             },
+            //             {
+            //                 label: 'Industry Average',
+            //                 data: [75, 80, 70],
+            //                 backgroundColor: '#64748b',
+            //                 borderColor: '#475569',
+            //                 borderWidth: 1
+            //             }
+            //         ]
+            //     },
+            //     options: {
+            //         animation: { duration: 0 },
+            //         animations: {},
+            //         transitions: {},
+            //         responsive: true,
+            //         maintainAspectRatio: false,
+            //         plugins: {
+            //             title: { display: true, text: 'Industry Benchmarking', font: { size: 16 } }
+            //         },
+            //         scales: {
+            //             y: {
+            //                 beginAtZero: true,
+            //                 max: 100,
+            //                 title: { display: true, text: 'Score' }
+            //             }
+            //         }
+            //     }
+            // });
+
+            // PDF Download Functionality
+            document.getElementById('downloadBtn').addEventListener('click', function () {
+                const element = document.querySelector('.report-container');
+                const opt = {
+                    margin: 0.5,
+                    filename: 'EcoTech_Sustainability_Report_2024.pdf',
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2, useCORS: true },
+                    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+                };
+                html2pdf().from(element).set(opt).toPdf().get('pdf').then(function (pdf) {
+                    const totalPages = pdf.internal.getNumberOfPages();
+                    for (let i = 1; i <= totalPages; i++) {
+                        pdf.setPage(i);
+                        pdf.setFontSize(10);
+                        pdf.setTextColor(150);
+                        pdf.text('EcoTech Solutions - Sustainability Report 2024', 0.5, 0.5);
+                        pdf.text(`Page ${i} of ${totalPages}`, 7.5, 11);
+                    }
+                }).save();
+            });
+        });
+    </script>
+</body>
+</html>

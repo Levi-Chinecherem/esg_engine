@@ -1,0 +1,1178 @@
+2025-07-20 06:24:23,411 - utils.file_utils - INFO - Logger initialized for utils.file_utils
+2025-07-20 06:24:23,429 - utils.config_loader - INFO - Logger initialized for utils.config_loader
+2025-07-20 06:24:23,430 - config - INFO - Logger initialized for config
+2025-07-20 06:24:23,881 - pdf_extractors.pdfplumber_extract - INFO - Logger initialized for pdf_extractors.pdfplumber_extract
+2025-07-20 06:24:23,930 - pdf_extractors.pymupdf_extract - INFO - Logger initialized for pdf_extractors.pymupdf_extract
+2025-07-20 06:24:32,286 - pdf_extractors.unstructured_extract - INFO - Logger initialized for pdf_extractors.unstructured_extract
+2025-07-20 06:24:32,294 - pdf_extractors.pytesseract_extract - INFO - Logger initialized for pdf_extractors.pytesseract_extract
+2025-07-20 06:24:32,295 - utils.pdf_extraction - INFO - Logger initialized for utils.pdf_extraction
+2025-07-20 06:24:33,535 - build_database - INFO - Logger initialized for build_database
+2025-07-20 06:24:33,537 - pdf_extractors.text_organizer - INFO - Logger initialized for pdf_extractors.text_organizer
+2025-07-20 06:24:33,538 - data_extraction.mistral_extract - INFO - Logger initialized for data_extraction.mistral_extract
+2025-07-20 06:24:33,553 - compliance_check.compliance_validator - INFO - Logger initialized for compliance_check.compliance_validator
+2025-07-20 06:24:33,556 - report_generator.csv_generator - INFO - Logger initialized for report_generator.csv_generator
+2025-07-20 06:24:33,556 - run_audit - INFO - Logger initialized for run_audit
+2025-07-20 06:24:33,557 - __main__ - INFO - Logger initialized for __main__
+2025-07-20 06:24:33,558 - utils.config_loader - INFO - Loaded .env file from: C:\Developments\Solutions\ESG Engine\o2\.env
+2025-07-20 06:24:33,559 - utils.config_loader - INFO - Created ChromaDB directory: C:\Developments\Solutions\ESG Engine\o2\chromadb
+2025-07-20 06:24:33,559 - utils.config_loader - INFO - Configuration loaded successfully
+2025-07-20 06:24:33,560 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:24:33,560 - utils.file_utils - INFO - Found standards files: ['ESRS_2.pdf', 'ifrs_s1.pdf', 'ifrs_s2.pdf']
+2025-07-20 06:24:33,560 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:24:33,561 - utils.file_utils - INFO - Found requirements files: ['UNCTAD_requirements.csv', 'UNEP_requirements.csv']
+2025-07-20 06:24:33,561 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\input
+2025-07-20 06:24:33,561 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:24:33,562 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:24:33,562 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\output
+2025-07-20 06:24:33,562 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\templates
+2025-07-20 06:24:33,562 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\logs
+2025-07-20 06:24:33,563 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\chromadb
+2025-07-20 06:24:33,563 - config - INFO - Validated standards file: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:33,563 - config - INFO - Validated requirements file: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:33,563 - config - INFO - Validated Tesseract: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-07-20 06:24:33,564 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:33,564 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:33,564 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:33,565 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\output
+2025-07-20 06:24:33,565 - __main__ - INFO - Starting CLI execution: report=C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf, standards=C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf, requirements=C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:33,565 - run_audit - INFO - Starting ESG audit workflow: report=C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf, standards=C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf, requirements=C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv, output_dir=C:\Developments\Solutions\ESG Engine\o2\output, company=BTG Pactual
+2025-07-20 06:24:33,566 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:33,566 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:33,566 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:33,567 - utils.config_loader - INFO - Loaded .env file from: C:\Developments\Solutions\ESG Engine\o2\.env
+2025-07-20 06:24:33,567 - utils.config_loader - INFO - Configuration loaded successfully
+2025-07-20 06:24:33,567 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:24:33,568 - utils.file_utils - INFO - Found standards files: ['ESRS_2.pdf', 'ifrs_s1.pdf', 'ifrs_s2.pdf']
+2025-07-20 06:24:33,568 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:24:33,568 - utils.file_utils - INFO - Found requirements files: ['UNCTAD_requirements.csv', 'UNEP_requirements.csv']
+2025-07-20 06:24:33,569 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\input
+2025-07-20 06:24:33,569 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:24:33,569 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:24:33,569 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\output
+2025-07-20 06:24:33,570 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\templates
+2025-07-20 06:24:33,570 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\logs
+2025-07-20 06:24:33,570 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\chromadb
+2025-07-20 06:24:33,571 - config - INFO - Validated standards file: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:33,571 - config - INFO - Validated requirements file: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:33,571 - config - INFO - Validated Tesseract: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-07-20 06:24:33,922 - run_audit - INFO - Initialized SpaCy en_core_web_sm model, id=1982843826736
+2025-07-20 06:24:33,923 - run_audit - INFO - Starting database initialization
+2025-07-20 06:24:33,924 - utils.config_loader - INFO - Loaded .env file from: C:\Developments\Solutions\ESG Engine\o2\.env
+2025-07-20 06:24:33,925 - utils.config_loader - INFO - Configuration loaded successfully
+2025-07-20 06:24:33,925 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:24:33,926 - utils.file_utils - INFO - Found standards files: ['ESRS_2.pdf', 'ifrs_s1.pdf', 'ifrs_s2.pdf']
+2025-07-20 06:24:33,927 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:24:33,927 - utils.file_utils - INFO - Found requirements files: ['UNCTAD_requirements.csv', 'UNEP_requirements.csv']
+2025-07-20 06:24:33,928 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\input
+2025-07-20 06:24:33,928 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:24:33,929 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:24:33,929 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\output
+2025-07-20 06:24:33,930 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\templates
+2025-07-20 06:24:33,930 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\logs
+2025-07-20 06:24:33,931 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\chromadb
+2025-07-20 06:24:33,931 - config - INFO - Validated standards file: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:33,931 - config - INFO - Validated requirements file: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:33,932 - config - INFO - Validated Tesseract: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-07-20 06:24:34,342 - build_database - INFO - Loaded SpaCy en_core_web_sm model for embeddings (~12 MB)
+2025-07-20 06:24:34,342 - build_database - INFO - Initialized DatabaseBuilder with standards: ['C:\\Developments\\Solutions\\ESG Engine\\o2\\standards\\ifrs_s1.pdf'], requirements: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:34,343 - run_audit - INFO - DatabaseBuilder embedding model id=1982844514896
+2025-07-20 06:24:34,343 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:24:34,344 - build_database - INFO - Calculated hash for C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv: 141a144f4d9a55537cda17a070cba417fe519bb1af05fed82141c24cdd843659
+2025-07-20 06:24:34,348 - build_database - INFO - Validated and cached requirements CSV: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv with 66 criteria
+2025-07-20 06:24:34,349 - build_database - INFO - Built criteria mapping for 66 criteria
+2025-07-20 06:24:34,350 - build_database - INFO - No existing collection found for esg_standards_ifrs_s1
+2025-07-20 06:24:34,350 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,384 - build_database - INFO - Extracted paragraph 0 from page 1 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,392 - build_database - INFO - Extracted paragraph 0 from page 2 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,436 - build_database - INFO - Extracted paragraph 0 from page 3 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,473 - build_database - INFO - Extracted paragraph 0 from page 4 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,480 - build_database - INFO - Extracted paragraph 0 from page 5 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,495 - build_database - INFO - Extracted paragraph 0 from page 6 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,548 - build_database - INFO - Extracted paragraph 0 from page 7 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,601 - build_database - INFO - Extracted paragraph 0 from page 8 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,645 - build_database - INFO - Extracted paragraph 0 from page 9 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,691 - build_database - INFO - Extracted paragraph 0 from page 10 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,739 - build_database - INFO - Extracted paragraph 0 from page 11 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,788 - build_database - INFO - Extracted paragraph 0 from page 12 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:34,831 - build_database - INFO - Extracted paragraph 0 from page 13 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,055 - build_database - INFO - Extracted paragraph 0 from page 14 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,100 - build_database - INFO - Extracted paragraph 0 from page 15 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,145 - build_database - INFO - Extracted paragraph 0 from page 16 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,186 - build_database - INFO - Extracted paragraph 0 from page 17 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,225 - build_database - INFO - Extracted paragraph 0 from page 18 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,271 - build_database - INFO - Extracted paragraph 0 from page 19 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,325 - build_database - INFO - Extracted paragraph 0 from page 20 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,371 - build_database - INFO - Extracted paragraph 0 from page 21 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,420 - build_database - INFO - Extracted paragraph 0 from page 22 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,457 - build_database - INFO - Extracted paragraph 0 from page 23 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,510 - build_database - INFO - Extracted paragraph 0 from page 24 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,541 - build_database - INFO - Extracted paragraph 0 from page 25 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,600 - build_database - INFO - Extracted paragraph 0 from page 26 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,650 - build_database - INFO - Extracted paragraph 0 from page 27 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,706 - build_database - INFO - Extracted paragraph 0 from page 28 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:35,954 - build_database - INFO - Extracted paragraph 0 from page 29 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,006 - build_database - INFO - Extracted paragraph 0 from page 30 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,052 - build_database - INFO - Extracted paragraph 0 from page 31 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,107 - build_database - INFO - Extracted paragraph 0 from page 32 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,157 - build_database - INFO - Extracted paragraph 0 from page 33 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,209 - build_database - INFO - Extracted paragraph 0 from page 34 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,262 - build_database - INFO - Extracted paragraph 0 from page 35 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,304 - build_database - INFO - Extracted paragraph 0 from page 36 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,331 - build_database - INFO - Extracted paragraph 0 from page 37 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,358 - build_database - INFO - Extracted paragraph 0 from page 38 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,409 - build_database - INFO - Extracted paragraph 0 from page 39 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,457 - build_database - INFO - Extracted paragraph 0 from page 40 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,507 - build_database - INFO - Extracted paragraph 0 from page 41 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,556 - build_database - INFO - Extracted paragraph 0 from page 42 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,604 - build_database - INFO - Extracted paragraph 0 from page 43 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,616 - build_database - INFO - Extracted paragraph 0 from page 44 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,661 - build_database - INFO - Extracted paragraph 0 from page 45 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,672 - build_database - INFO - Extracted paragraph 0 from page 46 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,690 - build_database - INFO - Extracted paragraph 0 from page 47 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,715 - build_database - INFO - Extracted paragraph 0 from page 48 in C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:36,716 - build_database - INFO - Split C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf into 48 paragraphs
+2025-07-20 06:24:36,758 - build_database - INFO - Embedding 48 paragraphs in batches of 10
+2025-07-20 06:24:36,759 - build_database - INFO - Processing batch 1/5 (10 paragraphs)
+2025-07-20 06:24:36,766 - build_database - INFO - Embedded paragraph 0 in batch 1 (length: 187 chars)
+2025-07-20 06:24:36,771 - build_database - INFO - Memory usage after paragraph 0: 50.8% used, 15.59 GB free
+2025-07-20 06:24:37,021 - build_database - INFO - Embedded paragraph 1 in batch 1 (length: 91 chars)
+2025-07-20 06:24:37,213 - build_database - INFO - Embedded paragraph 2 in batch 1 (length: 1885 chars)
+2025-07-20 06:24:37,379 - build_database - INFO - Embedded paragraph 3 in batch 1 (length: 1034 chars)
+2025-07-20 06:24:37,527 - build_database - INFO - Embedded paragraph 4 in batch 1 (length: 215 chars)
+2025-07-20 06:24:37,702 - build_database - INFO - Embedded paragraph 5 in batch 1 (length: 556 chars)
+2025-07-20 06:24:37,917 - build_database - INFO - Embedded paragraph 6 in batch 1 (length: 2692 chars)
+2025-07-20 06:24:38,130 - build_database - INFO - Embedded paragraph 7 in batch 1 (length: 2757 chars)
+2025-07-20 06:24:38,336 - build_database - INFO - Embedded paragraph 8 in batch 1 (length: 2308 chars)
+2025-07-20 06:24:38,538 - build_database - INFO - Embedded paragraph 9 in batch 1 (length: 2362 chars)
+2025-07-20 06:24:38,785 - build_database - INFO - Stored 10 paragraphs in ChromaDB for batch 1
+2025-07-20 06:24:38,953 - build_database - INFO - Processing batch 2/5 (10 paragraphs)
+2025-07-20 06:24:39,008 - build_database - INFO - Embedded paragraph 10 in batch 2 (length: 2493 chars)
+2025-07-20 06:24:39,011 - build_database - INFO - Memory usage after paragraph 10: 50.5% used, 15.67 GB free
+2025-07-20 06:24:39,224 - build_database - INFO - Embedded paragraph 11 in batch 2 (length: 2615 chars)
+2025-07-20 06:24:39,432 - build_database - INFO - Embedded paragraph 12 in batch 2 (length: 2467 chars)
+2025-07-20 06:24:39,641 - build_database - INFO - Embedded paragraph 13 in batch 2 (length: 2404 chars)
+2025-07-20 06:24:39,850 - build_database - INFO - Embedded paragraph 14 in batch 2 (length: 2588 chars)
+2025-07-20 06:24:40,055 - build_database - INFO - Embedded paragraph 15 in batch 2 (length: 2473 chars)
+2025-07-20 06:24:40,258 - build_database - INFO - Embedded paragraph 16 in batch 2 (length: 2221 chars)
+2025-07-20 06:24:40,464 - build_database - INFO - Embedded paragraph 17 in batch 2 (length: 2237 chars)
+2025-07-20 06:24:40,675 - build_database - INFO - Embedded paragraph 18 in batch 2 (length: 2629 chars)
+2025-07-20 06:24:40,889 - build_database - INFO - Embedded paragraph 19 in batch 2 (length: 2854 chars)
+2025-07-20 06:24:41,075 - build_database - INFO - Stored 10 paragraphs in ChromaDB for batch 2
+2025-07-20 06:24:41,231 - build_database - INFO - Processing batch 3/5 (10 paragraphs)
+2025-07-20 06:24:41,280 - build_database - INFO - Embedded paragraph 20 in batch 3 (length: 2573 chars)
+2025-07-20 06:24:41,284 - build_database - INFO - Memory usage after paragraph 20: 50.5% used, 15.67 GB free
+2025-07-20 06:24:41,503 - build_database - INFO - Embedded paragraph 21 in batch 3 (length: 2740 chars)
+2025-07-20 06:24:41,698 - build_database - INFO - Embedded paragraph 22 in batch 3 (length: 1761 chars)
+2025-07-20 06:24:41,903 - build_database - INFO - Embedded paragraph 23 in batch 3 (length: 2301 chars)
+2025-07-20 06:24:42,090 - build_database - INFO - Embedded paragraph 24 in batch 3 (length: 1660 chars)
+2025-07-20 06:24:42,306 - build_database - INFO - Embedded paragraph 25 in batch 3 (length: 3128 chars)
+2025-07-20 06:24:42,516 - build_database - INFO - Embedded paragraph 26 in batch 3 (length: 2861 chars)
+2025-07-20 06:24:42,728 - build_database - INFO - Embedded paragraph 27 in batch 3 (length: 2921 chars)
+2025-07-20 06:24:42,945 - build_database - INFO - Embedded paragraph 28 in batch 3 (length: 2823 chars)
+2025-07-20 06:24:43,163 - build_database - INFO - Embedded paragraph 29 in batch 3 (length: 3064 chars)
+2025-07-20 06:24:43,341 - build_database - INFO - Stored 10 paragraphs in ChromaDB for batch 3
+2025-07-20 06:24:43,502 - build_database - INFO - Processing batch 4/5 (10 paragraphs)
+2025-07-20 06:24:43,553 - build_database - INFO - Embedded paragraph 30 in batch 4 (length: 2759 chars)
+2025-07-20 06:24:43,557 - build_database - INFO - Memory usage after paragraph 30: 50.5% used, 15.67 GB free
+2025-07-20 06:24:43,767 - build_database - INFO - Embedded paragraph 31 in batch 4 (length: 2887 chars)
+2025-07-20 06:24:43,978 - build_database - INFO - Embedded paragraph 32 in batch 4 (length: 2751 chars)
+2025-07-20 06:24:44,189 - build_database - INFO - Embedded paragraph 33 in batch 4 (length: 2817 chars)
+2025-07-20 06:24:44,402 - build_database - INFO - Embedded paragraph 34 in batch 4 (length: 2992 chars)
+2025-07-20 06:24:44,607 - build_database - INFO - Embedded paragraph 35 in batch 4 (length: 2440 chars)
+2025-07-20 06:24:44,798 - build_database - INFO - Embedded paragraph 36 in batch 4 (length: 1408 chars)
+2025-07-20 06:24:44,982 - build_database - INFO - Embedded paragraph 37 in batch 4 (length: 1448 chars)
+2025-07-20 06:24:45,186 - build_database - INFO - Embedded paragraph 38 in batch 4 (length: 2749 chars)
+2025-07-20 06:24:45,393 - build_database - INFO - Embedded paragraph 39 in batch 4 (length: 2785 chars)
+2025-07-20 06:24:45,579 - build_database - INFO - Stored 10 paragraphs in ChromaDB for batch 4
+2025-07-20 06:24:45,731 - build_database - INFO - Processing batch 5/5 (8 paragraphs)
+2025-07-20 06:24:45,787 - build_database - INFO - Embedded paragraph 40 in batch 5 (length: 2673 chars)
+2025-07-20 06:24:45,791 - build_database - INFO - Memory usage after paragraph 40: 50.5% used, 15.68 GB free
+2025-07-20 06:24:45,997 - build_database - INFO - Embedded paragraph 41 in batch 5 (length: 2682 chars)
+2025-07-20 06:24:46,207 - build_database - INFO - Embedded paragraph 42 in batch 5 (length: 2686 chars)
+2025-07-20 06:24:46,368 - build_database - INFO - Embedded paragraph 43 in batch 5 (length: 555 chars)
+2025-07-20 06:24:46,584 - build_database - INFO - Embedded paragraph 44 in batch 5 (length: 2532 chars)
+2025-07-20 06:24:46,750 - build_database - INFO - Embedded paragraph 45 in batch 5 (length: 528 chars)
+2025-07-20 06:24:46,924 - build_database - INFO - Embedded paragraph 46 in batch 5 (length: 702 chars)
+2025-07-20 06:24:47,090 - build_database - INFO - Embedded paragraph 47 in batch 5 (length: 284 chars)
+2025-07-20 06:24:47,253 - build_database - INFO - Stored 8 paragraphs in ChromaDB for batch 5
+2025-07-20 06:24:47,405 - build_database - INFO - Successfully stored all paragraphs in ChromaDB collection: esg_standards_ifrs_s1
+2025-07-20 06:24:47,406 - build_database - INFO - Calculated hash for C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf: 00c0d9262dae46d339236fd752bedb49ed355e6738b71537944a4d20a791d658
+2025-07-20 06:24:47,407 - build_database - INFO - Cached file hash for C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:47,408 - build_database - INFO - Processed standards file: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:24:47,408 - build_database - INFO - Database initialization completed successfully
+2025-07-20 06:24:47,411 - run_audit - INFO - Database initialized with 1 standards collections and 66 criteria
+2025-07-20 06:24:47,411 - run_audit - INFO - Starting PDF extraction
+2025-07-20 06:24:47,412 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:47,412 - utils.pdf_extraction - INFO - Starting page-by-page PDF extraction with fallback for C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:47,523 - utils.pdf_extraction - INFO - Detected 150 pages in C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:47,524 - utils.pdf_extraction - INFO - Processing page 1
+2025-07-20 06:24:47,524 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:47,647 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 1: 86 chars
+2025-07-20 06:24:47,765 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 1
+2025-07-20 06:24:47,769 - utils.pdf_extraction - INFO - Processing page 2
+2025-07-20 06:24:47,770 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:48,003 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 2: 137 chars
+2025-07-20 06:24:48,233 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 2
+2025-07-20 06:24:48,237 - utils.pdf_extraction - INFO - Processing page 3
+2025-07-20 06:24:48,237 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:48,376 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 3: 112 chars
+2025-07-20 06:24:48,518 - utils.pdf_extraction - INFO - Processing page 4
+2025-07-20 06:24:48,519 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:48,703 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 4: 2360 chars
+2025-07-20 06:24:48,881 - utils.pdf_extraction - INFO - Processing page 5
+2025-07-20 06:24:48,881 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:49,032 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 5: 361 chars
+2025-07-20 06:24:49,185 - utils.pdf_extraction - INFO - Processing page 6
+2025-07-20 06:24:49,185 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:49,340 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 6: 566 chars
+2025-07-20 06:24:49,494 - utils.pdf_extraction - INFO - Processing page 7
+2025-07-20 06:24:49,494 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:49,867 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 7: 1080 chars
+2025-07-20 06:24:50,041 - utils.pdf_extraction - INFO - Processing page 8
+2025-07-20 06:24:50,042 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:50,248 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 8: 1934 chars
+2025-07-20 06:24:50,449 - utils.pdf_extraction - INFO - Processing page 9
+2025-07-20 06:24:50,449 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:50,637 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 9: 2006 chars
+2025-07-20 06:24:50,831 - utils.pdf_extraction - INFO - Processing page 10
+2025-07-20 06:24:50,831 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:51,041 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 10: 2730 chars
+2025-07-20 06:24:51,253 - utils.pdf_extraction - INFO - Processing page 11
+2025-07-20 06:24:51,253 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:51,663 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 11: 1822 chars
+2025-07-20 06:24:51,871 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 11
+2025-07-20 06:24:51,876 - utils.pdf_extraction - INFO - Processing page 12
+2025-07-20 06:24:51,876 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:52,115 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 12: 2996 chars
+2025-07-20 06:24:52,348 - utils.pdf_extraction - INFO - Processing page 13
+2025-07-20 06:24:52,348 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:52,618 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 13: 3816 chars
+2025-07-20 06:24:52,897 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 13
+2025-07-20 06:24:52,902 - utils.pdf_extraction - INFO - Processing page 14
+2025-07-20 06:24:52,902 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:53,176 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 14: 4077 chars
+2025-07-20 06:24:53,653 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 14
+2025-07-20 06:24:53,658 - utils.pdf_extraction - INFO - Processing page 15
+2025-07-20 06:24:53,658 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:53,866 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 15: 1416 chars
+2025-07-20 06:24:54,063 - utils.pdf_extraction - INFO - Processing page 16
+2025-07-20 06:24:54,063 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:54,234 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 16: 300 chars
+2025-07-20 06:24:54,400 - utils.pdf_extraction - INFO - Processing page 17
+2025-07-20 06:24:54,400 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:54,603 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 17: 2705 chars
+2025-07-20 06:24:54,802 - utils.pdf_extraction - INFO - Processing page 18
+2025-07-20 06:24:54,803 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:55,054 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 18: 1692 chars
+2025-07-20 06:24:55,514 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 18
+2025-07-20 06:24:55,518 - utils.pdf_extraction - INFO - Processing page 19
+2025-07-20 06:24:55,518 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:55,699 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 19: 1855 chars
+2025-07-20 06:24:55,877 - utils.pdf_extraction - INFO - Processing page 20
+2025-07-20 06:24:55,878 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:56,048 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 20: 856 chars
+2025-07-20 06:24:56,218 - utils.pdf_extraction - INFO - Processing page 21
+2025-07-20 06:24:56,219 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:56,501 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 21: 3057 chars
+2025-07-20 06:24:56,768 - utils.pdf_extraction - INFO - Processing page 22
+2025-07-20 06:24:56,768 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:57,190 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 22: 3851 chars
+2025-07-20 06:24:57,410 - utils.pdf_extraction - INFO - Processing page 23
+2025-07-20 06:24:57,411 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:57,580 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 23: 1168 chars
+2025-07-20 06:24:57,748 - utils.pdf_extraction - INFO - Processing page 24
+2025-07-20 06:24:57,749 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:57,949 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 24: 2872 chars
+2025-07-20 06:24:58,136 - utils.pdf_extraction - INFO - Processing page 25
+2025-07-20 06:24:58,137 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:58,342 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 25: 3457 chars
+2025-07-20 06:24:58,751 - utils.pdf_extraction - INFO - Processing page 26
+2025-07-20 06:24:58,752 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:58,921 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 26: 1528 chars
+2025-07-20 06:24:59,086 - utils.pdf_extraction - INFO - Processing page 27
+2025-07-20 06:24:59,086 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:59,313 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 27: 4779 chars
+2025-07-20 06:24:59,546 - utils.pdf_extraction - INFO - Processing page 28
+2025-07-20 06:24:59,547 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:24:59,743 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 28: 1449 chars
+2025-07-20 06:24:59,938 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 28
+2025-07-20 06:24:59,943 - utils.pdf_extraction - INFO - Processing page 29
+2025-07-20 06:24:59,944 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:00,227 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 29: 3369 chars
+2025-07-20 06:25:00,652 - utils.pdf_extraction - INFO - Processing page 30
+2025-07-20 06:25:00,653 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:00,915 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 30: 5714 chars
+2025-07-20 06:25:01,158 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 30
+2025-07-20 06:25:01,162 - utils.pdf_extraction - INFO - Processing page 31
+2025-07-20 06:25:01,163 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:01,370 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 31: 2915 chars
+2025-07-20 06:25:01,567 - utils.pdf_extraction - INFO - Processing page 32
+2025-07-20 06:25:01,568 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:02,002 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 32: 3974 chars
+2025-07-20 06:25:02,221 - utils.pdf_extraction - INFO - Processing page 33
+2025-07-20 06:25:02,221 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:02,434 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 33: 3154 chars
+2025-07-20 06:25:02,635 - utils.pdf_extraction - INFO - Processing page 34
+2025-07-20 06:25:02,636 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:02,823 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 34: 1541 chars
+2025-07-20 06:25:03,002 - utils.pdf_extraction - INFO - Processing page 35
+2025-07-20 06:25:03,003 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:03,209 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 35: 2584 chars
+2025-07-20 06:25:03,407 - utils.pdf_extraction - INFO - Processing page 36
+2025-07-20 06:25:03,408 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:03,839 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 36: 3312 chars
+2025-07-20 06:25:04,038 - utils.pdf_extraction - INFO - Processing page 37
+2025-07-20 06:25:04,039 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:04,303 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 37: 6922 chars
+2025-07-20 06:25:04,545 - utils.pdf_extraction - INFO - Processing page 38
+2025-07-20 06:25:04,545 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:04,776 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 38: 3402 chars
+2025-07-20 06:25:05,222 - utils.pdf_extraction - INFO - Processing page 39
+2025-07-20 06:25:05,223 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:05,489 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 39: 5597 chars
+2025-07-20 06:25:05,754 - utils.pdf_extraction - INFO - Processing page 40
+2025-07-20 06:25:05,755 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:05,951 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 40: 4015 chars
+2025-07-20 06:25:06,143 - utils.pdf_extraction - INFO - Processing page 41
+2025-07-20 06:25:06,143 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:06,557 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 41: 3557 chars
+2025-07-20 06:25:06,759 - utils.pdf_extraction - INFO - Processing page 42
+2025-07-20 06:25:06,759 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:06,971 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 42: 3367 chars
+2025-07-20 06:25:07,168 - utils.pdf_extraction - INFO - Processing page 43
+2025-07-20 06:25:07,169 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:07,397 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 43: 5587 chars
+2025-07-20 06:25:07,624 - utils.pdf_extraction - INFO - Processing page 44
+2025-07-20 06:25:07,624 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:07,802 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 44: 2527 chars
+2025-07-20 06:25:08,194 - utils.pdf_extraction - INFO - Processing page 45
+2025-07-20 06:25:08,195 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:08,422 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 45: 4049 chars
+2025-07-20 06:25:08,651 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 45
+2025-07-20 06:25:08,655 - utils.pdf_extraction - INFO - Processing page 46
+2025-07-20 06:25:08,656 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:08,897 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 46: 5003 chars
+2025-07-20 06:25:09,119 - utils.pdf_extraction - INFO - Processing page 47
+2025-07-20 06:25:09,120 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:09,301 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 47: 2109 chars
+2025-07-20 06:25:09,697 - utils.pdf_extraction - INFO - Processing page 48
+2025-07-20 06:25:09,698 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:09,851 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 48: 156 chars
+2025-07-20 06:25:10,010 - utils.pdf_extraction - INFO - Processing page 49
+2025-07-20 06:25:10,010 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:10,263 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 49: 3618 chars
+2025-07-20 06:25:10,524 - utils.pdf_extraction - INFO - Processing page 50
+2025-07-20 06:25:10,525 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:10,770 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 50: 4398 chars
+2025-07-20 06:25:10,993 - utils.pdf_extraction - INFO - Processing page 51
+2025-07-20 06:25:10,994 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:11,248 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 51: 4263 chars
+2025-07-20 06:25:11,680 - utils.pdf_extraction - INFO - Processing page 52
+2025-07-20 06:25:11,681 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:11,880 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 52: 3094 chars
+2025-07-20 06:25:12,075 - utils.pdf_extraction - INFO - Processing page 53
+2025-07-20 06:25:12,076 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:12,259 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 53: 1855 chars
+2025-07-20 06:25:12,441 - utils.pdf_extraction - INFO - Processing page 54
+2025-07-20 06:25:12,441 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:12,621 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 54: 1286 chars
+2025-07-20 06:25:12,809 - utils.pdf_extraction - INFO - Processing page 55
+2025-07-20 06:25:12,809 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:13,228 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 55: 3347 chars
+2025-07-20 06:25:13,429 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 55
+2025-07-20 06:25:13,434 - utils.pdf_extraction - INFO - Processing page 56
+2025-07-20 06:25:13,434 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:13,651 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 56: 3989 chars
+2025-07-20 06:25:13,863 - utils.pdf_extraction - INFO - Processing page 57
+2025-07-20 06:25:13,864 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:14,100 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 57: 2940 chars
+2025-07-20 06:25:14,314 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 57
+2025-07-20 06:25:14,318 - utils.pdf_extraction - INFO - Processing page 58
+2025-07-20 06:25:14,319 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:14,545 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 58: 3259 chars
+2025-07-20 06:25:14,976 - utils.pdf_extraction - INFO - Processing page 59
+2025-07-20 06:25:14,976 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:15,206 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 59: 4233 chars
+2025-07-20 06:25:15,434 - utils.pdf_extraction - INFO - Processing page 60
+2025-07-20 06:25:15,435 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:15,649 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 60: 2834 chars
+2025-07-20 06:25:15,872 - utils.pdf_extraction - INFO - pdfplumber extracted 6 tables for page 60
+2025-07-20 06:25:15,876 - utils.pdf_extraction - INFO - Processing page 61
+2025-07-20 06:25:15,876 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:16,072 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 61: 1645 chars
+2025-07-20 06:25:16,477 - utils.pdf_extraction - INFO - Processing page 62
+2025-07-20 06:25:16,478 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:16,695 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 62: 3958 chars
+2025-07-20 06:25:16,907 - utils.pdf_extraction - INFO - Processing page 63
+2025-07-20 06:25:16,907 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:17,125 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 63: 3184 chars
+2025-07-20 06:25:17,333 - utils.pdf_extraction - INFO - Processing page 64
+2025-07-20 06:25:17,334 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:17,549 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 64: 3960 chars
+2025-07-20 06:25:17,964 - utils.pdf_extraction - INFO - Processing page 65
+2025-07-20 06:25:17,965 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:18,165 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 65: 3324 chars
+2025-07-20 06:25:18,359 - utils.pdf_extraction - INFO - Processing page 66
+2025-07-20 06:25:18,360 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:18,572 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 66: 3272 chars
+2025-07-20 06:25:18,776 - utils.pdf_extraction - INFO - Processing page 67
+2025-07-20 06:25:18,776 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:18,969 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 67: 2951 chars
+2025-07-20 06:25:19,163 - utils.pdf_extraction - INFO - Processing page 68
+2025-07-20 06:25:19,164 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:19,575 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 68: 3395 chars
+2025-07-20 06:25:19,771 - utils.pdf_extraction - INFO - Processing page 69
+2025-07-20 06:25:19,772 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:19,916 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 69: 192 chars
+2025-07-20 06:25:20,059 - utils.pdf_extraction - INFO - Processing page 70
+2025-07-20 06:25:20,059 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:20,296 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 70: 5121 chars
+2025-07-20 06:25:20,522 - utils.pdf_extraction - INFO - Processing page 71
+2025-07-20 06:25:20,523 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:20,747 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 71: 4535 chars
+2025-07-20 06:25:21,155 - utils.pdf_extraction - INFO - Processing page 72
+2025-07-20 06:25:21,156 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:21,343 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 72: 2604 chars
+2025-07-20 06:25:21,529 - utils.pdf_extraction - INFO - Processing page 73
+2025-07-20 06:25:21,529 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:21,763 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 73: 5138 chars
+2025-07-20 06:25:21,993 - utils.pdf_extraction - INFO - Processing page 74
+2025-07-20 06:25:21,994 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:22,206 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 74: 3652 chars
+2025-07-20 06:25:22,617 - utils.pdf_extraction - INFO - Processing page 75
+2025-07-20 06:25:22,617 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:22,815 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 75: 2838 chars
+2025-07-20 06:25:23,006 - utils.pdf_extraction - INFO - Processing page 76
+2025-07-20 06:25:23,006 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:23,208 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 76: 2419 chars
+2025-07-20 06:25:23,398 - utils.pdf_extraction - INFO - pdfplumber extracted 6 tables for page 76
+2025-07-20 06:25:23,402 - utils.pdf_extraction - INFO - Processing page 77
+2025-07-20 06:25:23,403 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:23,603 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 77: 1187 chars
+2025-07-20 06:25:23,801 - utils.pdf_extraction - INFO - pdfplumber extracted 13 tables for page 77
+2025-07-20 06:25:23,805 - utils.pdf_extraction - INFO - Processing page 78
+2025-07-20 06:25:23,805 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:24,032 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 78: 2691 chars
+2025-07-20 06:25:24,464 - utils.pdf_extraction - INFO - pdfplumber extracted 6 tables for page 78
+2025-07-20 06:25:24,468 - utils.pdf_extraction - INFO - Processing page 79
+2025-07-20 06:25:24,468 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:24,670 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 79: 1981 chars
+2025-07-20 06:25:24,874 - utils.pdf_extraction - INFO - pdfplumber extracted 6 tables for page 79
+2025-07-20 06:25:24,878 - utils.pdf_extraction - INFO - Processing page 80
+2025-07-20 06:25:24,878 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:25,050 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 80: 1670 chars
+2025-07-20 06:25:25,223 - utils.pdf_extraction - INFO - Processing page 81
+2025-07-20 06:25:25,224 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:25,417 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 81: 1726 chars
+2025-07-20 06:25:25,605 - utils.pdf_extraction - INFO - Processing page 82
+2025-07-20 06:25:25,605 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:26,015 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 82: 2898 chars
+2025-07-20 06:25:26,205 - utils.pdf_extraction - INFO - Processing page 83
+2025-07-20 06:25:26,206 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:26,392 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 83: 1746 chars
+2025-07-20 06:25:26,573 - utils.pdf_extraction - INFO - pdfplumber extracted 4 tables for page 83
+2025-07-20 06:25:26,577 - utils.pdf_extraction - INFO - Processing page 84
+2025-07-20 06:25:26,578 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:26,818 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 84: 2602 chars
+2025-07-20 06:25:27,032 - utils.pdf_extraction - INFO - pdfplumber extracted 5 tables for page 84
+2025-07-20 06:25:27,036 - utils.pdf_extraction - INFO - Processing page 85
+2025-07-20 06:25:27,037 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:27,274 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 85: 4840 chars
+2025-07-20 06:25:27,713 - utils.pdf_extraction - INFO - Processing page 86
+2025-07-20 06:25:27,714 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:27,922 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 86: 2360 chars
+2025-07-20 06:25:28,120 - utils.pdf_extraction - INFO - Processing page 87
+2025-07-20 06:25:28,121 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:28,326 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 87: 3200 chars
+2025-07-20 06:25:28,544 - utils.pdf_extraction - INFO - Processing page 88
+2025-07-20 06:25:28,546 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:28,819 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 88: 5527 chars
+2025-07-20 06:25:29,288 - utils.pdf_extraction - INFO - Processing page 89
+2025-07-20 06:25:29,288 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:29,477 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 89: 2435 chars
+2025-07-20 06:25:29,662 - utils.pdf_extraction - INFO - Processing page 90
+2025-07-20 06:25:29,662 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:29,857 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 90: 1549 chars
+2025-07-20 06:25:30,062 - utils.pdf_extraction - INFO - pdfplumber extracted 8 tables for page 90
+2025-07-20 06:25:30,066 - utils.pdf_extraction - INFO - Processing page 91
+2025-07-20 06:25:30,067 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:30,318 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 91: 5230 chars
+2025-07-20 06:25:30,739 - utils.pdf_extraction - INFO - Processing page 92
+2025-07-20 06:25:30,740 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:31,005 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 92: 5832 chars
+2025-07-20 06:25:31,256 - utils.pdf_extraction - INFO - Processing page 93
+2025-07-20 06:25:31,256 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:31,450 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 93: 2677 chars
+2025-07-20 06:25:31,638 - utils.pdf_extraction - INFO - Processing page 94
+2025-07-20 06:25:31,638 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:31,839 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 94: 3037 chars
+2025-07-20 06:25:32,246 - utils.pdf_extraction - INFO - Processing page 95
+2025-07-20 06:25:32,246 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:32,482 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 95: 4449 chars
+2025-07-20 06:25:32,711 - utils.pdf_extraction - INFO - Processing page 96
+2025-07-20 06:25:32,712 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:32,875 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 96: 1312 chars
+2025-07-20 06:25:33,038 - utils.pdf_extraction - INFO - Processing page 97
+2025-07-20 06:25:33,038 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:33,247 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 97: 3522 chars
+2025-07-20 06:25:33,446 - utils.pdf_extraction - INFO - Processing page 98
+2025-07-20 06:25:33,447 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:33,882 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 98: 2856 chars
+2025-07-20 06:25:34,106 - utils.pdf_extraction - INFO - Processing page 99
+2025-07-20 06:25:34,107 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:34,311 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 99: 2948 chars
+2025-07-20 06:25:34,512 - utils.pdf_extraction - INFO - Processing page 100
+2025-07-20 06:25:34,512 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:34,724 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 100: 3272 chars
+2025-07-20 06:25:34,928 - utils.pdf_extraction - INFO - Processing page 101
+2025-07-20 06:25:34,929 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:35,381 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 101: 4388 chars
+2025-07-20 06:25:35,610 - utils.pdf_extraction - INFO - Processing page 102
+2025-07-20 06:25:35,611 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:35,815 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 102: 3026 chars
+2025-07-20 06:25:36,011 - utils.pdf_extraction - INFO - Processing page 103
+2025-07-20 06:25:36,012 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:36,212 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 103: 2281 chars
+2025-07-20 06:25:36,400 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 103
+2025-07-20 06:25:36,405 - utils.pdf_extraction - INFO - Processing page 104
+2025-07-20 06:25:36,405 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:36,590 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 104: 1618 chars
+2025-07-20 06:25:36,768 - utils.pdf_extraction - INFO - Processing page 105
+2025-07-20 06:25:36,768 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:37,186 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 105: 2133 chars
+2025-07-20 06:25:37,377 - utils.pdf_extraction - INFO - Processing page 106
+2025-07-20 06:25:37,378 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:37,554 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 106: 1774 chars
+2025-07-20 06:25:37,734 - utils.pdf_extraction - INFO - Processing page 107
+2025-07-20 06:25:37,734 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:37,914 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 107: 1755 chars
+2025-07-20 06:25:38,094 - utils.pdf_extraction - INFO - Processing page 108
+2025-07-20 06:25:38,094 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:38,292 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 108: 2822 chars
+2025-07-20 06:25:38,482 - utils.pdf_extraction - INFO - Processing page 109
+2025-07-20 06:25:38,483 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:38,934 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 109: 3772 chars
+2025-07-20 06:25:39,180 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 109
+2025-07-20 06:25:39,184 - utils.pdf_extraction - INFO - Processing page 110
+2025-07-20 06:25:39,184 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:39,327 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 110: 159 chars
+2025-07-20 06:25:39,468 - utils.pdf_extraction - INFO - Processing page 111
+2025-07-20 06:25:39,468 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:39,665 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 111: 2131 chars
+2025-07-20 06:25:39,862 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 111
+2025-07-20 06:25:39,866 - utils.pdf_extraction - INFO - Processing page 112
+2025-07-20 06:25:39,866 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:40,096 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 112: 3147 chars
+2025-07-20 06:25:40,329 - utils.pdf_extraction - INFO - Processing page 113
+2025-07-20 06:25:40,330 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:40,533 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 113: 1935 chars
+2025-07-20 06:25:40,930 - utils.pdf_extraction - INFO - Processing page 114
+2025-07-20 06:25:40,930 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:41,122 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 114: 2549 chars
+2025-07-20 06:25:41,316 - utils.pdf_extraction - INFO - Processing page 115
+2025-07-20 06:25:41,317 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:41,512 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 115: 1974 chars
+2025-07-20 06:25:41,703 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 115
+2025-07-20 06:25:41,707 - utils.pdf_extraction - INFO - Processing page 116
+2025-07-20 06:25:41,707 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:41,891 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 116: 1299 chars
+2025-07-20 06:25:42,068 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 116
+2025-07-20 06:25:42,072 - utils.pdf_extraction - INFO - Processing page 117
+2025-07-20 06:25:42,072 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:42,273 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 117: 2272 chars
+2025-07-20 06:25:42,670 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 117
+2025-07-20 06:25:42,674 - utils.pdf_extraction - INFO - Processing page 118
+2025-07-20 06:25:42,674 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:42,902 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 118: 3713 chars
+2025-07-20 06:25:43,134 - utils.pdf_extraction - INFO - Processing page 119
+2025-07-20 06:25:43,134 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:43,352 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 119: 3055 chars
+2025-07-20 06:25:43,560 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 119
+2025-07-20 06:25:43,564 - utils.pdf_extraction - INFO - Processing page 120
+2025-07-20 06:25:43,564 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:43,800 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 120: 2940 chars
+2025-07-20 06:25:44,217 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 120
+2025-07-20 06:25:44,222 - utils.pdf_extraction - INFO - Processing page 121
+2025-07-20 06:25:44,222 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:44,423 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 121: 2627 chars
+2025-07-20 06:25:44,619 - utils.pdf_extraction - INFO - Processing page 122
+2025-07-20 06:25:44,620 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:44,844 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 122: 2999 chars
+2025-07-20 06:25:45,062 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 122
+2025-07-20 06:25:45,066 - utils.pdf_extraction - INFO - Processing page 123
+2025-07-20 06:25:45,067 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:45,326 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 123: 2897 chars
+2025-07-20 06:25:45,607 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 123
+2025-07-20 06:25:45,611 - utils.pdf_extraction - INFO - Processing page 124
+2025-07-20 06:25:45,612 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:46,025 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 124: 2153 chars
+2025-07-20 06:25:46,203 - utils.pdf_extraction - INFO - Processing page 125
+2025-07-20 06:25:46,203 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:46,429 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 125: 3214 chars
+2025-07-20 06:25:46,640 - utils.pdf_extraction - INFO - Processing page 126
+2025-07-20 06:25:46,640 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:46,843 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 126: 2534 chars
+2025-07-20 06:25:47,042 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 126
+2025-07-20 06:25:47,046 - utils.pdf_extraction - INFO - Processing page 127
+2025-07-20 06:25:47,046 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:47,253 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 127: 2956 chars
+2025-07-20 06:25:47,680 - utils.pdf_extraction - INFO - Processing page 128
+2025-07-20 06:25:47,681 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:47,912 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 128: 4915 chars
+2025-07-20 06:25:48,137 - utils.pdf_extraction - INFO - Processing page 129
+2025-07-20 06:25:48,137 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:48,277 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 129: 96 chars
+2025-07-20 06:25:48,417 - utils.pdf_extraction - INFO - Processing page 130
+2025-07-20 06:25:48,418 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:48,652 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 130: 3307 chars
+2025-07-20 06:25:48,877 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 130
+2025-07-20 06:25:48,881 - utils.pdf_extraction - INFO - Processing page 131
+2025-07-20 06:25:48,881 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:49,292 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 131: 2528 chars
+2025-07-20 06:25:49,500 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 131
+2025-07-20 06:25:49,505 - utils.pdf_extraction - INFO - Processing page 132
+2025-07-20 06:25:49,505 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:49,736 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 132: 2916 chars
+2025-07-20 06:25:49,957 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 132
+2025-07-20 06:25:49,961 - utils.pdf_extraction - INFO - Processing page 133
+2025-07-20 06:25:49,962 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:50,180 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 133: 2621 chars
+2025-07-20 06:25:50,390 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 133
+2025-07-20 06:25:50,394 - utils.pdf_extraction - INFO - Processing page 134
+2025-07-20 06:25:50,394 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:50,625 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 134: 2931 chars
+2025-07-20 06:25:51,059 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 134
+2025-07-20 06:25:51,063 - utils.pdf_extraction - INFO - Processing page 135
+2025-07-20 06:25:51,064 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:51,235 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 135: 1345 chars
+2025-07-20 06:25:51,407 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 135
+2025-07-20 06:25:51,411 - utils.pdf_extraction - INFO - Processing page 136
+2025-07-20 06:25:51,411 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:51,651 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 136: 3636 chars
+2025-07-20 06:25:51,893 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 136
+2025-07-20 06:25:51,897 - utils.pdf_extraction - INFO - Processing page 137
+2025-07-20 06:25:51,898 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:52,124 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 137: 3862 chars
+2025-07-20 06:25:52,347 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 137
+2025-07-20 06:25:52,351 - utils.pdf_extraction - INFO - Processing page 138
+2025-07-20 06:25:52,352 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:52,787 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 138: 3961 chars
+2025-07-20 06:25:53,012 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 138
+2025-07-20 06:25:53,016 - utils.pdf_extraction - INFO - Processing page 139
+2025-07-20 06:25:53,016 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:53,248 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 139: 3824 chars
+2025-07-20 06:25:53,474 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 139
+2025-07-20 06:25:53,478 - utils.pdf_extraction - INFO - Processing page 140
+2025-07-20 06:25:53,479 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:53,702 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 140: 3100 chars
+2025-07-20 06:25:53,925 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 140
+2025-07-20 06:25:53,929 - utils.pdf_extraction - INFO - Processing page 141
+2025-07-20 06:25:53,930 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:54,317 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 141: 1203 chars
+2025-07-20 06:25:54,484 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 141
+2025-07-20 06:25:54,487 - utils.pdf_extraction - INFO - Processing page 142
+2025-07-20 06:25:54,488 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:54,725 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 142: 4538 chars
+2025-07-20 06:25:54,954 - utils.pdf_extraction - INFO - Processing page 143
+2025-07-20 06:25:54,955 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:55,193 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 143: 4814 chars
+2025-07-20 06:25:55,430 - utils.pdf_extraction - INFO - Processing page 144
+2025-07-20 06:25:55,431 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:55,883 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 144: 3802 chars
+2025-07-20 06:25:56,124 - utils.pdf_extraction - INFO - pdfplumber extracted 2 tables for page 144
+2025-07-20 06:25:56,127 - utils.pdf_extraction - INFO - Processing page 145
+2025-07-20 06:25:56,128 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:56,316 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 145: 1716 chars
+2025-07-20 06:25:56,496 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 145
+2025-07-20 06:25:56,500 - utils.pdf_extraction - INFO - Processing page 146
+2025-07-20 06:25:56,500 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:56,692 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 146: 1550 chars
+2025-07-20 06:25:56,893 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 146
+2025-07-20 06:25:56,897 - utils.pdf_extraction - INFO - Processing page 147
+2025-07-20 06:25:56,898 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:57,096 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 147: 2403 chars
+2025-07-20 06:25:57,299 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 147
+2025-07-20 06:25:57,304 - utils.pdf_extraction - INFO - Processing page 148
+2025-07-20 06:25:57,304 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:57,710 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 148: 1212 chars
+2025-07-20 06:25:57,898 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 148
+2025-07-20 06:25:57,902 - utils.pdf_extraction - INFO - Processing page 149
+2025-07-20 06:25:57,903 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:58,110 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 149: 1390 chars
+2025-07-20 06:25:58,310 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 149
+2025-07-20 06:25:58,314 - utils.pdf_extraction - INFO - Processing page 150
+2025-07-20 06:25:58,314 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:58,486 - utils.pdf_extraction - INFO - pdfplumber succeeded for page 150: 282 chars
+2025-07-20 06:25:58,660 - utils.pdf_extraction - INFO - pdfplumber extracted 1 tables for page 150
+2025-07-20 06:25:58,664 - utils.pdf_extraction - INFO - Completed extraction for C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf: 150/150 pages extracted
+2025-07-20 06:25:58,665 - run_audit - INFO - Extracted 150 pages with 103 tables from C:\Developments\Solutions\ESG Engine\o2\input\btg-pactual.pdf
+2025-07-20 06:25:58,665 - run_audit - INFO - Starting text organization
+2025-07-20 06:25:58,665 - pdf_extractors.text_organizer - INFO - Using SpaCy en_core_web_sm model for embeddings, id=1982843826736
+2025-07-20 06:25:58,666 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:25:58,668 - pdf_extractors.text_organizer - INFO - Loaded 4 categories from C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv: ['Economic', 'Environmental', 'Social', 'Institutional and Governance']
+2025-07-20 06:25:58,668 - pdf_extractors.text_organizer - INFO - Generating category embeddings
+2025-07-20 06:25:59,434 - pdf_extractors.text_organizer - INFO - Starting paragraph-level text organization
+2025-07-20 06:25:59,434 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:25:59,447 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:25:59,602 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:25:59,609 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:25:59,759 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:25:59,817 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:25:59,974 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:25:59,987 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:00,180 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:00,198 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:00,368 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:00,396 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:00,564 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:00,605 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:00,772 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:00,822 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:00,994 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:01,057 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:01,227 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:01,269 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:01,423 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:01,493 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:01,646 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:01,765 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:01,923 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:02,054 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:02,210 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:02,247 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:02,407 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:02,416 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:02,576 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:02,640 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:02,796 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:02,839 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:02,997 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:03,040 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:03,195 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:03,234 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:03,392 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:03,458 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:03,617 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:03,784 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:03,938 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:03,964 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:04,121 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:04,184 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:04,341 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:04,429 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:04,594 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:04,629 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:04,785 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:04,884 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:05,042 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:05,078 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:05,234 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:05,304 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:05,464 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:05,788 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:05,926 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:05,988 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:06,135 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:06,215 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:06,362 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:06,433 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:06,591 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:06,627 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:06,785 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:06,840 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:07,002 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:07,074 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:07,231 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:07,368 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:07,527 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:07,598 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:07,758 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:07,879 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:08,040 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:08,121 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:08,284 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:08,362 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:08,517 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:08,588 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:08,749 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:08,877 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:09,038 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:09,090 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:09,249 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:09,372 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:09,533 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:09,638 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:09,801 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:09,845 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:10,000 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:10,008 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:10,163 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:10,239 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:10,397 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:10,487 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:10,647 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:10,736 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:10,893 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:10,955 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:11,110 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:11,150 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:11,309 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:11,339 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:11,496 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:11,575 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:11,734 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:11,818 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:11,977 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:12,043 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:12,199 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:12,270 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:12,431 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:12,527 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:12,687 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:12,749 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:12,906 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:12,943 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:13,096 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:13,202 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:13,363 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:13,430 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:13,589 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:13,672 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:13,829 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:13,900 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:14,057 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:14,125 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:14,282 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:14,345 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:14,506 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:14,580 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:14,738 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:14,746 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:14,907 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:15,019 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:15,179 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:15,277 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:15,439 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:15,499 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:15,663 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:15,782 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:15,943 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:16,028 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:16,186 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:16,249 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:16,405 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:16,462 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:16,616 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:16,649 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:16,809 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:16,877 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:17,036 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:17,083 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:17,241 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:17,278 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:17,434 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:17,473 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:17,634 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:17,693 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:17,848 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:17,889 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:18,053 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:18,117 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:18,274 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:18,376 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:18,537 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:18,593 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:18,749 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:18,815 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:18,973 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:19,091 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:19,250 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:19,300 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:19,457 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:19,498 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:19,659 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:19,767 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:19,925 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:20,042 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:20,200 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:20,254 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:20,410 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:20,484 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:20,644 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:20,733 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:20,894 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:20,925 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:21,083 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:21,153 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:21,312 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:21,376 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:21,531 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:21,590 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:21,749 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:21,820 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:21,979 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:22,074 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:22,236 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:22,302 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:22,458 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:22,517 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:22,679 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:22,713 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:22,877 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:22,926 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:23,086 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:23,123 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:23,282 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:23,318 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:23,474 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:23,531 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:23,689 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:23,805 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:23,966 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:23,974 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:24,133 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:24,199 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:24,358 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:24,423 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:24,580 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:24,620 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:24,782 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:24,839 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:24,994 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:25,065 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:25,223 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:25,254 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:25,408 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:25,507 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:25,663 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:25,735 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:25,893 - pdf_extractors.text_organizer - INFO - Embedding 3 content units in batches of 16
+2025-07-20 06:26:25,970 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (3 units)
+2025-07-20 06:26:26,132 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:26,198 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:26,361 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:26,419 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:26,575 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:26,650 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:26,812 - pdf_extractors.text_organizer - INFO - Embedding 3 content units in batches of 16
+2025-07-20 06:26:26,898 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (3 units)
+2025-07-20 06:26:27,060 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:27,105 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:27,259 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:27,325 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:27,483 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:27,563 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:27,722 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:27,784 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:27,950 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:28,045 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:28,201 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:28,338 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:28,499 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:28,578 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:28,740 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:28,858 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:29,019 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:29,113 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:29,272 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:29,378 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:29,522 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:29,572 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:29,729 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:29,800 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:29,962 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:30,039 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:30,204 - pdf_extractors.text_organizer - INFO - Embedding 3 content units in batches of 16
+2025-07-20 06:26:30,318 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (3 units)
+2025-07-20 06:26:30,481 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:30,570 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:30,730 - pdf_extractors.text_organizer - INFO - Embedding 3 content units in batches of 16
+2025-07-20 06:26:30,822 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (3 units)
+2025-07-20 06:26:30,982 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:31,009 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:31,163 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:31,250 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:31,409 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:31,497 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:31,656 - pdf_extractors.text_organizer - INFO - Embedding 3 content units in batches of 16
+2025-07-20 06:26:31,770 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (3 units)
+2025-07-20 06:26:31,932 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:31,994 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:32,163 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:32,227 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:32,387 - pdf_extractors.text_organizer - INFO - Embedding 1 content units in batches of 16
+2025-07-20 06:26:32,439 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (1 units)
+2025-07-20 06:26:32,600 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:32,646 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:32,809 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:32,861 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:33,022 - pdf_extractors.text_organizer - INFO - Embedding 2 content units in batches of 16
+2025-07-20 06:26:33,039 - pdf_extractors.text_organizer - INFO - Embedded batch 1/1 (2 units)
+2025-07-20 06:26:33,196 - pdf_extractors.text_organizer - INFO - Text organization completed: {'Economic': 7, 'Environmental': 60, 'Social': 69, 'Institutional and Governance': 42, 'Uncategorized': 9}
+2025-07-20 06:26:33,197 - run_audit - INFO - Categorized data: {'Economic': 7, 'Environmental': 60, 'Social': 69, 'Institutional and Governance': 42, 'Uncategorized': 9}
+2025-07-20 06:26:33,197 - run_audit - INFO - Starting data extraction
+2025-07-20 06:26:33,197 - data_extraction.mistral_extract - INFO - Initialized MistralExtractor with rule-based logic
+2025-07-20 06:26:33,198 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:26:33,278 - data_extraction.mistral_extract - INFO - Completed data extraction: 66 criteria processed
+2025-07-20 06:26:33,278 - run_audit - INFO - Extracted data for 66 criteria
+2025-07-20 06:26:33,278 - run_audit - INFO - Starting compliance validation
+2025-07-20 06:26:33,279 - utils.config_loader - INFO - Loaded .env file from: C:\Developments\Solutions\ESG Engine\o2\.env
+2025-07-20 06:26:33,280 - utils.config_loader - INFO - Configuration loaded successfully
+2025-07-20 06:26:33,280 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:26:33,280 - utils.file_utils - INFO - Found standards files: ['ESRS_2.pdf', 'ifrs_s1.pdf', 'ifrs_s2.pdf']
+2025-07-20 06:26:33,281 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:26:33,281 - utils.file_utils - INFO - Found requirements files: ['UNCTAD_requirements.csv', 'UNEP_requirements.csv']
+2025-07-20 06:26:33,281 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\input
+2025-07-20 06:26:33,281 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\standards
+2025-07-20 06:26:33,282 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\requirements
+2025-07-20 06:26:33,282 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\output
+2025-07-20 06:26:33,282 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\templates
+2025-07-20 06:26:33,283 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\logs
+2025-07-20 06:26:33,283 - config - INFO - Validated directory: C:\Developments\Solutions\ESG Engine\o2\chromadb
+2025-07-20 06:26:33,283 - config - INFO - Validated standards file: C:\Developments\Solutions\ESG Engine\o2\standards\ifrs_s1.pdf
+2025-07-20 06:26:33,283 - config - INFO - Validated requirements file: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:26:33,284 - config - INFO - Validated Tesseract: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-07-20 06:26:33,402 - compliance_check.compliance_validator - INFO - Initialized ComplianceValidator with SpaCy en_core_web_sm model (id=1982843826736) and ChromaDB collection: esg_standards_ifrs_s1
+2025-07-20 06:26:33,404 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:26:33,407 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Revenue
+2025-07-20 06:26:33,417 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Revenue
+2025-07-20 06:26:33,609 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Profit
+2025-07-20 06:26:33,645 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Profit
+2025-07-20 06:26:33,799 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Financial Returns
+2025-07-20 06:26:33,835 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Financial Returns
+2025-07-20 06:26:33,993 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Local Economic Contributions
+2025-07-20 06:26:34,043 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Local Economic Contributions
+2025-07-20 06:26:34,202 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Jobs Created
+2025-07-20 06:26:34,213 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Jobs Created
+2025-07-20 06:26:34,362 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Community Welfare Investments
+2025-07-20 06:26:34,400 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Community Welfare Investments
+2025-07-20 06:26:34,545 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Sustainable Procurement Policies
+2025-07-20 06:26:34,594 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Sustainable Procurement Policies
+2025-07-20 06:26:34,756 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Suppliers Assessed for Sustainability
+2025-07-20 06:26:34,770 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Suppliers Assessed for Sustainability
+2025-07-20 06:26:34,936 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Local Suppliers Percentage
+2025-07-20 06:26:34,974 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Local Suppliers Percentage
+2025-07-20 06:26:35,137 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Charitable Monetary Donations
+2025-07-20 06:26:35,148 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Charitable Monetary Donations
+2025-07-20 06:26:35,309 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Charitable In-Kind Donations
+2025-07-20 06:26:35,321 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Charitable In-Kind Donations
+2025-07-20 06:26:35,481 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Total Waste Generated
+2025-07-20 06:26:35,581 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Total Waste Generated
+2025-07-20 06:26:35,740 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Hazardous Waste Generated
+2025-07-20 06:26:35,788 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Hazardous Waste Generated
+2025-07-20 06:26:35,949 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Scope 1 GHG Emissions
+2025-07-20 06:26:36,045 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Scope 1 GHG Emissions
+2025-07-20 06:26:36,205 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Scope 2 GHG Emissions
+2025-07-20 06:26:36,302 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Scope 2 GHG Emissions
+2025-07-20 06:26:36,465 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Scope 3 GHG Emissions
+2025-07-20 06:26:36,561 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Scope 3 GHG Emissions
+2025-07-20 06:26:36,723 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Total GHG Emissions
+2025-07-20 06:26:36,753 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Total GHG Emissions
+2025-07-20 06:26:36,911 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Ozone-Depleting Substances Emissions
+2025-07-20 06:26:37,008 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Ozone-Depleting Substances Emissions
+2025-07-20 06:26:37,171 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Total Energy Consumption
+2025-07-20 06:26:37,279 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Total Energy Consumption
+2025-07-20 06:26:37,439 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Electricity Consumption
+2025-07-20 06:26:37,538 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Electricity Consumption
+2025-07-20 06:26:37,702 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Renewable Energy Consumption
+2025-07-20 06:26:37,798 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Renewable Energy Consumption
+2025-07-20 06:26:37,959 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Total Water Consumption
+2025-07-20 06:26:38,056 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Total Water Consumption
+2025-07-20 06:26:38,220 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion NOx Emissions
+2025-07-20 06:26:38,249 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion NOx Emissions
+2025-07-20 06:26:38,409 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion SOx Emissions
+2025-07-20 06:26:38,441 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion SOx Emissions
+2025-07-20 06:26:38,603 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Particulate Emissions
+2025-07-20 06:26:38,632 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Particulate Emissions
+2025-07-20 06:26:38,795 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Waste Reduction Strategies
+2025-07-20 06:26:38,890 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Waste Reduction Strategies
+2025-07-20 06:26:39,051 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Hazardous Chemicals Usage
+2025-07-20 06:26:39,153 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Hazardous Chemicals Usage
+2025-07-20 06:26:39,315 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Suppliers Assessed for Environmental Practices
+2025-07-20 06:26:39,324 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Suppliers Assessed for Environmental Practices
+2025-07-20 06:26:39,485 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Raw Materials Consumption
+2025-07-20 06:26:39,583 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Raw Materials Consumption
+2025-07-20 06:26:39,745 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Energy Intensity
+2025-07-20 06:26:39,794 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Energy Intensity
+2025-07-20 06:26:39,956 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Water Intensity
+2025-07-20 06:26:40,005 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Water Intensity
+2025-07-20 06:26:40,165 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion GHG Emissions Intensity
+2025-07-20 06:26:40,199 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion GHG Emissions Intensity
+2025-07-20 06:26:40,361 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Waste Intensity
+2025-07-20 06:26:40,409 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Waste Intensity
+2025-07-20 06:26:40,568 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Sourcing of Materials
+2025-07-20 06:26:40,663 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Sourcing of Materials
+2025-07-20 06:26:40,824 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Integrated Water Resource Management
+2025-07-20 06:26:40,903 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Integrated Water Resource Management
+2025-07-20 06:26:41,064 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Biodiversity Impacts
+2025-07-20 06:26:41,142 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Biodiversity Impacts
+2025-07-20 06:26:41,301 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Engagement on Environmental Issues
+2025-07-20 06:26:41,401 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Engagement on Environmental Issues
+2025-07-20 06:26:41,561 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Total Employee Training Hours
+2025-07-20 06:26:41,664 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Total Employee Training Hours
+2025-07-20 06:26:41,832 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Average Training Hours per Employee
+2025-07-20 06:26:41,877 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Average Training Hours per Employee
+2025-07-20 06:26:42,039 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Occupational Injury Count
+2025-07-20 06:26:42,139 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Occupational Injury Count
+2025-07-20 06:26:42,300 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Safety Programs
+2025-07-20 06:26:42,341 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Safety Programs
+2025-07-20 06:26:42,496 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Permanent Employees
+2025-07-20 06:26:42,597 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Permanent Employees
+2025-07-20 06:26:42,754 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Temporary Employees
+2025-07-20 06:26:42,856 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Temporary Employees
+2025-07-20 06:26:43,016 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Gender Distribution
+2025-07-20 06:26:43,058 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Gender Distribution
+2025-07-20 06:26:43,214 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Training Programs Offered
+2025-07-20 06:26:43,315 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Training Programs Offered
+2025-07-20 06:26:43,475 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Human Rights Policy
+2025-07-20 06:26:43,520 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Human Rights Policy
+2025-07-20 06:26:43,675 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Diversity Initiatives
+2025-07-20 06:26:43,775 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Diversity Initiatives
+2025-07-20 06:26:43,935 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Worker Rights Policies
+2025-07-20 06:26:44,004 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Worker Rights Policies
+2025-07-20 06:26:44,161 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Suppliers Assessed for Social Practices
+2025-07-20 06:26:44,261 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Suppliers Assessed for Social Practices
+2025-07-20 06:26:44,424 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Community Investment
+2025-07-20 06:26:44,525 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Community Investment
+2025-07-20 06:26:44,684 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Local Community Impacts
+2025-07-20 06:26:44,785 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Local Community Impacts
+2025-07-20 06:26:44,943 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Engagement on Sustainability Issues
+2025-07-20 06:26:45,044 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Engagement on Sustainability Issues
+2025-07-20 06:26:45,201 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Corruption Incidents Count
+2025-07-20 06:26:45,275 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Corruption Incidents Count
+2025-07-20 06:26:45,436 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Anti-Corruption Training Hours
+2025-07-20 06:26:45,512 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Anti-Corruption Training Hours
+2025-07-20 06:26:45,656 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Materiality Assessment Process
+2025-07-20 06:26:45,728 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Materiality Assessment Process
+2025-07-20 06:26:45,888 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Sustainability Goals
+2025-07-20 06:26:45,962 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Sustainability Goals
+2025-07-20 06:26:46,118 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Sustainability Management Methods
+2025-07-20 06:26:46,146 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Sustainability Management Methods
+2025-07-20 06:26:46,304 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Governance Framework
+2025-07-20 06:26:46,331 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Governance Framework
+2025-07-20 06:26:46,495 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Key Sustainability Risks
+2025-07-20 06:26:46,569 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Key Sustainability Risks
+2025-07-20 06:26:46,727 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Anti-Fraud Policies
+2025-07-20 06:26:46,800 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Anti-Fraud Policies
+2025-07-20 06:26:46,970 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Supply Chain Overview
+2025-07-20 06:26:47,044 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Supply Chain Overview
+2025-07-20 06:26:47,199 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Stakeholder Engagement Process
+2025-07-20 06:26:47,274 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Stakeholder Engagement Process
+2025-07-20 06:26:47,434 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Compensation Structure
+2025-07-20 06:26:47,509 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Compensation Structure
+2025-07-20 06:26:47,669 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Supply Chain Details
+2025-07-20 06:26:47,744 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Supply Chain Details
+2025-07-20 06:26:47,901 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Stakeholder Engagement on Sustainability
+2025-07-20 06:26:47,978 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Stakeholder Engagement on Sustainability
+2025-07-20 06:26:48,135 - compliance_check.compliance_validator - INFO - Embedding 2 query texts for criterion Remuneration Details
+2025-07-20 06:26:48,211 - compliance_check.compliance_validator - INFO - Embedded batch 1/1 (2 texts) for criterion Remuneration Details
+2025-07-20 06:26:48,367 - compliance_check.compliance_validator - INFO - Compliance validation completed: 66 criteria processed, 43 compliant
+2025-07-20 06:26:48,368 - run_audit - INFO - Validated compliance for 66 criteria, 43 compliant
+2025-07-20 06:26:48,368 - run_audit - INFO - Starting CSV report generation
+2025-07-20 06:26:48,368 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\requirements\UNCTAD_requirements.csv
+2025-07-20 06:26:48,370 - report_generator.csv_generator - INFO - Starting CSV report generation for btg-pactual.pdf
+2025-07-20 06:26:48,390 - utils.file_utils - INFO - Validated path: C:\Developments\Solutions\ESG Engine\o2\output
+2025-07-20 06:26:48,393 - report_generator.csv_generator - INFO - Generated CSV report: C:\Developments\Solutions\ESG Engine\o2\output\btg-pactual_result.csv with 5 summary rows and 66 detailed rows
+2025-07-20 06:26:48,394 - run_audit - INFO - CSV report generated: C:\Developments\Solutions\ESG Engine\o2\output\btg-pactual_result.csv, total time: 134.8 seconds
+2025-07-20 06:26:48,394 - run_audit - INFO - ESG audit completed in 134.8 seconds
+2025-07-20 06:26:48,400 - __main__ - INFO - Audit completed. CSV report saved to: C:\Developments\Solutions\ESG Engine\o2\output\btg-pactual_result.csv

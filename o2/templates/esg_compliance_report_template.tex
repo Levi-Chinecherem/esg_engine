@@ -1,0 +1,457 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usetikzlibrary{shapes.geometric, positioning, backgrounds}
+\pgfplotsset{compat=1.18}
+
+% Defining page geometry
+\geometry{margin=0.75in, a4paper}
+
+% Defining colors
+\definecolor{titleblue}{RGB}{0, 51, 102}
+\definecolor{emerald}{RGB}{5, 150, 105}
+\definecolor{blue}{RGB}{8, 145, 178}
+\definecolor{lightgreen}{RGB}{209, 250, 229}
+\definecolor{lightblue}{RGB}{224, 242, 254}
+\definecolor{accentgreen}{RGB}{16, 185, 129}
+\definecolor{accentblue}{RGB}{59, 130, 246}
+
+% Header and footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\color{emerald}\small ESG Compliance Audit Report}
+\fancyhead[R]{\color{emerald}\small Page \thepage\ of \pageref{LastPage}}
+\fancyfoot[C]{\color{emerald}\small {{ company_name }} | 2023 Sustainability Audit}
+
+% Gradient box command
+\newcommand{\gradientbox}[2]{
+    \begin{tikzpicture}
+        \node[rectangle, rounded corners, minimum width=0.95\textwidth, minimum height=2cm, text width=0.9\textwidth, align=center, inner sep=10pt, fill=lightgreen!30!lightblue!30] (box) {#2};
+        \begin{scope}[on background layer]
+            \fill[lightgreen, opacity=0.4] (box.south west) rectangle ([xshift=0.5\textwidth]box.south east);
+            \fill[lightblue, opacity=0.4] ([xshift=0.5\textwidth]box.south west) rectangle (box.north east);
+        \end{scope}
+    \end{tikzpicture}
+}
+
+% Section header command
+\newcommand{\sectionheader}[1]{
+    \begin{center}
+        \Large\bfseries\color{titleblue} #1 \\
+        \vspace{0.3cm}
+        \begin{tikzpicture}
+            \draw[emerald, line width=2mm] (0,0) -- (4,0);
+            \draw[blue, line width=2mm] (4,0) -- (8,0);
+        \end{tikzpicture}
+    \end{center}
+}
+
+% Document begins
+\begin{document}
+
+% Cover Page
+\begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+    \vspace*{1cm}
+    \begin{tikzpicture}
+        \fill[emerald, opacity=0.7] (0,0) rectangle (\textwidth, 1.5\textheight);
+        \fill[blue, opacity=0.7] (0,0) -- (\textwidth, 1.5\textheight) -- (\textwidth,0) -- cycle;
+        \node at (0.5\textwidth, 0.9\textheight) {\Huge\bfseries\color{white} ESG Compliance Audit Report};
+        \node at (0.5\textwidth, 0.75\textheight) {\huge\color{white} {{ company_name }}};
+        \node at (0.5\textwidth, 0.65\textheight) {\Large\color{white} 2023 Sustainability Report};
+        \node at (0.5\textwidth, 0.55\textheight) {\large\color{white} Audit Date: {{ audit_date }}};
+        \node[circle, fill=white, minimum size=2.5cm] at (0.5\textwidth, 1.1\textheight) {\Large\color{emerald} \textbf{AC}};
+    \end{tikzpicture}
+    \vspace{0.5cm}
+    \gradientbox{0.9\textwidth}{
+        \textbf{Key Compliance Metrics} \\
+        \vspace{0.3cm}
+        \begin{tabular}{ccc}
+            \textbf{{{ compliance_rate }}\%} & \textbf{{{ compliant_criteria }}/{{ total_criteria }}} & \textbf{{{ processing_time }}s} \\
+            Compliance Rate & Compliant Criteria & Processing Time
+        \end{tabular}
+    }
+    \vspace{0.5cm}
+    {\small Reporting Period: January 2023 - December 2023 \\ Published: July 2025}
+\end{titlepage}
+
+% Table of Contents
+\clearpage
+\sectionheader{Table of Contents}
+\addcontentsline{toc}{section}{Table of Contents}
+\begin{multicols}{2}
+    \begin{itemize}[leftmargin=*, itemsep=0.5em]
+        \item \hyperref[sec:executive]{Executive Summary} \dotfill 2
+        \item \hyperref[sec:profile]{Company Profile} \dotfill 3
+        \item \hyperref[sec:performance]{Compliance Performance} \dotfill 4
+        \item \hyperref[sec:analysis]{Detailed Analysis} \dotfill 6
+        \item \hyperref[sec:insights]{Compliance Insights} \dotfill 10
+        \item \hyperref[sec:engagement]{Stakeholder Engagement} \dotfill 12
+        \item \hyperref[sec:benchmarking]{Benchmarking} \dotfill 13
+        \item \hyperref[sec:casestudies]{Case Studies} \dotfill 14
+        \item \hyperref[sec:futuregoals]{Future Goals} \dotfill 15
+        \item \hyperref[sec:conclusion]{Conclusion} \dotfill 16
+        \item \hyperref[sec:appendices]{Appendices} \dotfill 17
+    \end{itemize}
+\end{multicols}
+\clearpage
+
+% Executive Summary
+\section*{Executive Summary}
+\label{sec:executive}
+\addcontentsline{toc}{section}{Executive Summary}
+\sectionheader{Executive Summary}
+This report presents the results of an automated ESG compliance audit for {{ company_name }}’s 2023 Sustainability Report, conducted on {{ audit_date }}. The audit evaluated {{ total_criteria }} criteria across Environmental, Social, and Governance categories against GRI, IFRS, and SASB standards, achieving an {{ compliance_rate }}\% compliance rate.
+
+\begin{multicols}{2}
+    \gradientbox{0.45\textwidth}{
+        \textbf{Compliance Metrics} \\
+        \vspace{0.3cm}
+        \begin{tabular}{p{2cm}p{2cm}}
+            \toprule
+            \textbf{Metric} & \textbf{Value} \\
+            \midrule
+            Total Criteria & {{ total_criteria }} \\
+            Compliant & {{ compliant_criteria }} \\
+            Non-Compliant & {{ non_compliant_criteria }} \\
+            Compliance Rate & {{ compliance_rate }}\% \\
+            Processing Time & {{ processing_time }}s \\
+            \bottomrule
+        \end{tabular}
+    }
+    \gradientbox{0.45\textwidth}{
+        \textbf{Key Achievements} \\
+        \vspace{0.3cm}
+        \begin{itemize}[leftmargin=*]
+            \item Strong GRI compliance ({{ environmental_compliant }}/{{ environmental_count }})
+            \item Robust environmental disclosures
+            \item High stakeholder engagement
+        \end{itemize}
+    }
+\end{multicols}
+\vspace{0.5cm}
+{{ company_name }} excelled in environmental reporting but requires improved methodology disclosures for social metrics to achieve full compliance.
+
+% Company Profile
+\section*{Company Profile}
+\label{sec:profile}
+\addcontentsline{toc}{section}{Company Profile}
+\sectionheader{Company Profile}
+\begin{multicols}{2}
+    \gradientbox{0.45\textwidth}{
+        \textbf{About {{ company_name }}} \\
+        {{ company_profile.about | escape }} \\
+        \vspace{0.3cm}
+        \textbf{Mission}: {{ company_profile.mission | escape }} \\
+        \textbf{Vision}: {{ company_profile.vision | escape }}
+    }
+    \gradientbox{0.45\textwidth}{
+        \textbf{Core Values} \\
+        \vspace{0.3cm}
+        \begin{itemize}[leftmargin=*]
+            {% for value in company_profile.core_values %}
+            \item {{ value | escape }}
+            {% endfor %}
+        \end{itemize}
+    }
+\end{multicols}
+
+% Compliance Performance
+\section*{Compliance Performance}
+\label{sec:performance}
+\addcontentsline{toc}{section}{Compliance Performance}
+\sectionheader{Compliance Performance}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{p{3cm}p{3cm}p{3cm}p{3cm}}
+        \toprule
+        \textbf{Framework} & \textbf{Level} & \textbf{Score} & \textbf{Status} \\
+        \midrule
+        GRI Standards & Core & {{ environmental_compliant*100.0/environmental_count | round(0) }}\% & \color{emerald} Compliant \\
+        IFRS S1/S2 & Comprehensive & {{ social_compliant*100.0/social_count | round(0) }}\% & \color{blue} Partially Compliant \\
+        SASB & Industry-Specific & {{ governance_compliant*100.0/governance_count | round(0) }}\% & \color{emerald} Compliant \\
+        \bottomrule
+    \end{tabular}
+    \caption{Compliance by Framework}
+\end{table}
+\begin{tikzpicture}
+    \begin{axis}[
+        ybar, width=0.45\textwidth, height=5cm,
+        ylabel={Compliance Score (\%)},
+        symbolic x coords={GRI, IFRS, SASB},
+        xtick=data, ymin=0, ymax=100,
+        axis background/.style={fill=lightgreen!20},
+        legend style={at={(0.5,-0.2)}, anchor=north, legend columns=-1}
+    ]
+        \addplot[fill=emerald] coordinates {(GRI, {{ environmental_compliant*100.0/environmental_count | round(0) }}) (IFRS, {{ social_compliant*100.0/social_count | round(0) }}) (SASB, {{ governance_compliant*100.0/governance_count | round(0) }})};
+        \legend{Acme Corp}
+    \end{axis}
+\end{tikzpicture}
+{{ company_name }} demonstrates strong adherence to GRI and SASB, with minor gaps in IFRS methodology disclosures.
+
+% Detailed Analysis
+\section*{Detailed Analysis}
+\label{sec:analysis}
+\addcontentsline{toc}{section}{Detailed Analysis}
+\sectionheader{Detailed Analysis}
+\subsection*{Environmental Compliance}
+\begin{table}[h]
+    \centering
+    \small
+    \begin{tabular}{p{2.5cm}p{3.5cm}p{2.5cm}p{2cm}p{2.5cm}p{3cm}}
+        \toprule
+        \textbf{Criterion} & \textbf{Description} & \textbf{Value (Unit)} & \textbf{Page} & \textbf{Standard} & \textbf{Status} \\
+        \midrule
+        {% for item in environmental_data %}
+        \rowcolor{lightgreen!20} {{ item.Criterion | escape }} & {{ item.Description | escape }} & {{ item.Extracted_Value | escape }} {{ '(' + item.Unit + ')' if item.Unit else '' }} & {{ item.Source_Page | escape }} & {{ item.Standard_Code | escape }} & \color{% if item.Compliance_Status == 'Compliant' %}emerald{% else %}red{% endif %} {{ item.Compliance_Status | escape }} \\
+        {% endfor %}
+        \bottomrule
+    \end{tabular}
+    \caption{Environmental Compliance ({{ environmental_count }} Criteria)}
+\end{table}
+{% if environmental_data | selectattr('Criterion', 'equalto', 'Scope1_Emissions') | list %}
+\textbf{Scope1_Emissions}: Reported {{ environmental_data | selectattr('Criterion', 'equalto', 'Scope1_Emissions') | map(attribute='Extracted_Value') | first | default('N/A') }} {{ environmental_data | selectattr('Criterion', 'equalto', 'Scope1_Emissions') | map(attribute='Unit') | first | default('') }} on page {{ environmental_data | selectattr('Criterion', 'equalto', 'Scope1_Emissions') | map(attribute='Source_Page') | first | default('N/A') }}, fully compliant with GRI 305-1.
+{% endif %}
+
+{% if emissions_data %}
+\begin{tikzpicture}
+    \begin{axis}[
+        ybar, width=0.45\textwidth, height=5cm,
+        ylabel={Emissions (tCO2e)}, xlabel={Year},
+        symbolic x coords={ {% for item in emissions_data %} {{ item.year }} {% if not loop.last %},{% endif %} {% endfor %} },
+        xtick=data, ymin=0, ymax={% if emissions_data %}{{ [emissions_data | map(attribute='scope1') | list, emissions_data | map(attribute='scope2') | list] | flatten | max * 1.1 }}{% else %}10000{% endif %},
+        axis background/.style={fill=lightgreen!20}
+    ]
+        \addplot[fill=emerald] coordinates { {% for item in emissions_data %} ({{ item.year }}, {{ item.scope1 }}) {% endfor %} };
+        \addplot[fill=blue] coordinates { {% for item in emissions_data %} ({{ item.year }}, {{ item.scope2 }}) {% endfor %} };
+        \legend{Scope 1, Scope 2}
+    \end{axis}
+\end{tikzpicture}
+{% endif %}
+
+\subsection*{Social Compliance}
+\begin{table}[h]
+    \centering
+    \small
+    \begin{tabular}{p{2.5cm}p{3.5cm}p{2.5cm}p{2cm}p{2.5cm}p{3cm}}
+        \toprule
+        \textbf{Criterion} & \textbf{Description} & \textbf{Value (Unit)} & \textbf{Page} & \textbf{Standard} & \textbf{Status} \\
+        \midrule
+        {% for item in social_data %}
+        \rowcolor{lightblue!20} {{ item.Criterion | escape }} & {{ item.Description | escape }} & {{ item.Extracted_Value | escape }} {{ '(' + item.Unit + ')' if item.Unit else '' }} & {{ item.Source_Page | escape }} & {{ item.Standard_Code | escape }} & \color{% if item.Compliance_Status == 'Compliant' %}emerald{% else %}red{% endif %} {{ item.Compliance_Status | escape }} \\
+        {% endfor %}
+        \bottomrule
+    \end{tabular}
+    \caption{Social Compliance ({{ social_count }} Criteria)}
+\end{table}
+{% if social_data | selectattr('Criterion', 'equalto', 'Gender_Pay_Gap') | list %}
+\textbf{Gender_Pay_Gap}: Reported {{ social_data | selectattr('Criterion', 'equalto', 'Gender_Pay_Gap') | map(attribute='Extracted_Value') | first | default('N/A') }}% on page {{ social_data | selectattr('Criterion', 'equalto', 'Gender_Pay_Gap') | map(attribute='Source_Page') | first | default('N/A') }}, but lacked methodology, failing IFRS S1.
+{% endif %}
+
+{% if diversity_data %}
+\begin{tikzpicture}
+    \begin{axis}[
+        ybar, width=0.45\textwidth, height=5cm,
+        ylabel={Percentage (\%)},
+        symbolic x coords={ {% for item in diversity_data %} {{ item.category }} {% if not loop.last %},{% endif %} {% endfor %} },
+        xtick=data, ymin=0, ymax=100,
+        axis background/.style={fill=lightblue!20},
+        legend style={at={(0.5,-0.2)}, anchor=north, legend columns=-1}
+    ]
+        \addplot[fill=blue] coordinates { {% for item in diversity_data %} ({{ item.category }}, {{ item[diversity_data[0].keys() | reject('eq', 'category') | first] }}) {% endfor %} };
+        \addplot[fill=emerald] coordinates { {% for item in diversity_data %} ({{ item.category }}, {{ item[diversity_data[0].keys() | reject('eq', 'category') | last] }}) {% endfor %} };
+        \legend{ {{ diversity_data[0].keys() | reject('eq', 'category') | first }}, {{ diversity_data[0].keys() | reject('eq', 'category') | last }} }
+    \end{axis}
+\end{tikzpicture}
+{% endif %}
+
+\subsection*{Governance Compliance}
+\begin{table}[h]
+    \centering
+    \small
+    \begin{tabular}{p{2.5cm}p{3.5cm}p{2.5cm}p{2cm}p{2.5cm}p{3cm}}
+        \toprule
+        \textbf{Criterion} & \textbf{Description} & \textbf{Value (Unit)} & \textbf{Page} & \textbf{Standard} & \textbf{Status} \\
+        \midrule
+        {% for item in governance_data %}
+        \rowcolor{lightgreen!20} {{ item.Criterion | escape }} & {{ item.Description | escape }} & {{ item.Extracted_Value | escape }} {{ '(' + item.Unit + ')' if item.Unit else '' }} & {{ item.Source_Page | escape }} & {{ item.Standard_Code | escape }} & \color{% if item.Compliance_Status == 'Compliant' %}emerald{% else %}red{% endif %} {{ item.Compliance_Status | escape }} \\
+        {% endfor %}
+        \bottomrule
+    \end{tabular}
+    \caption{Governance Compliance ({{ governance_count }} Criteria)}
+\end{table}
+\clearpage
+
+% Compliance Insights
+\section*{Compliance Insights}
+\label{sec:insights}
+\addcontentsline{toc}{section}{Compliance Insights}
+\sectionheader{Compliance Insights}
+\subsection*{Materiality Assessment}
+{% if recommendations %}
+\begin{itemize}
+    {% for rec in recommendations %}
+    \item \gradientbox{0.9\textwidth}{
+        \textbf{{ rec.title | escape }} \\
+        {{ rec.description | escape }} \\
+        \textbf{Rationale}: {{ rec.rationale | escape }}
+    }
+    {% endfor %}
+\end{itemize}
+{% else %}
+No specific recommendations identified; all criteria compliant.
+{% endif %}
+
+% Stakeholder Engagement
+\section*{Stakeholder Engagement}
+\label{sec:engagement}
+\addcontentsline{toc}{section}{Stakeholder Engagement}
+\sectionheader{Stakeholder Engagement}
+\begin{multicols}{2}
+    \gradientbox{0.45\textwidth}{
+        \textbf{Engagement Metrics} \\
+        \vspace{0.3cm}
+        Stakeholder Survey: {{ stakeholder_engagement.survey_satisfaction | escape }} \\
+        Community Forums: {{ stakeholder_engagement.forums | escape }} \\
+        Investor Meetings: {{ stakeholder_engagement.meetings | escape }}
+    }
+    \gradientbox{0.45\textwidth}{
+        \textbf{Feedback Themes} \\
+        \vspace{0.3cm}
+        \begin{itemize}[leftmargin=*]
+            {% for theme in stakeholder_engagement.themes %}
+            \item {{ theme | escape }}
+            {% endfor %}
+        \end{itemize}
+    }
+\end{multicols}
+
+% Benchmarking
+\section*{Benchmarking}
+\label{sec:benchmarking}
+\addcontentsline{toc}{section}{Benchmarking}
+\sectionheader{Benchmarking}
+{% if benchmarking_data %}
+\begin{tikzpicture}
+    \begin{axis}[
+        ybar, width=0.45\textwidth, height=5cm,
+        ylabel={Compliance Score (\%)},
+        symbolic x coords={ {% for item in benchmarking_data %} {{ item.category }} {% if not loop.last %},{% endif %} {% endfor %} },
+        xtick=data, ymin=0, ymax=100,
+        axis background/.style={fill=lightblue!20},
+        legend style={at={(0.5,-0.2)}, anchor=north, legend columns=-1}
+    ]
+        \addplot[fill=emerald] coordinates { {% for item in benchmarking_data %} ({{ item.category }}, {{ item.company }}) {% endfor %} };
+        \addplot[fill=blue] coordinates { {% for item in benchmarking_data %} ({{ item.category }}, {{ item.industry }}) {% endfor %} };
+        \legend{Acme Corp, Industry Avg}
+    \end{axis}
+\end{tikzpicture}
+{{ company_name }} outperforms industry averages across all ESG categories.
+{% else %}
+No benchmarking data available.
+{% endif %}
+
+% Case Studies
+\section*{Case Studies}
+\label{sec:casestudies}
+\addcontentsline{toc}{section}{Case Studies}
+\sectionheader{Case Studies}
+{% for case in case_studies %}
+\gradientbox{0.9\textwidth}{
+    \textbf{{ case.title | escape }} \\
+    {{ case.description | escape }} \\
+    \textbf{Impact}: {{ case.impact | escape }}
+}
+{% else %}
+No case studies identified in the report.
+{% endfor %}
+
+% Future Goals
+\section*{Future Goals}
+\label{sec:futuregoals}
+\addcontentsline{toc}{section}{Future Goals}
+\sectionheader{Future Goals}
+\begin{multicols}{2}
+    \gradientbox{0.45\textwidth}{
+        \textbf{2025 Targets} \\
+        \vspace{0.3cm}
+        \begin{itemize}[leftmargin=*]
+            \item Carbon Neutrality: Target 100\%
+            \item Renewable Energy: Target 100\%
+            \item Waste Diversion: Target 98\%
+        \end{itemize}
+    }
+    \gradientbox{0.45\textwidth}{
+        \textbf{2030 Vision} \\
+        \vspace{0.3cm}
+        \begin{itemize}[leftmargin=*]
+            \item Net Positive Impact
+            \item Circular Economy: Target 100\%
+            \item Global Expansion
+        \end{itemize}
+    }
+\end{multicols}
+{% if progress_data %}
+\begin{tikzpicture}
+    \begin{axis}[
+        ybar, width=0.45\textwidth, height=5cm,
+        ylabel={Progress (\%)},
+        symbolic x coords={ {% for item in progress_data %} {{ item.quarter }} {% if not loop.last %},{% endif %} {% endfor %} },
+        xtick=data, ymin=0, ymax=100,
+        axis background/.style={fill=lightgreen!20}
+    ]
+        \addplot[fill=emerald] coordinates { {% for item in progress_data %} ({{ item.quarter }}, {{ item.progress }}) {% endfor %} };
+    \end{axis}
+\end{tikzpicture}
+{% endif %}
+
+% Conclusion
+\section*{Conclusion}
+\label{sec:conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+\sectionheader{Conclusion}
+\gradientbox{0.9\textwidth}{
+    {{ company_name }}’s 2023 audit demonstrates robust compliance ({{ compliance_rate }}\%) with ESG standards. Continued focus on methodology disclosures and comprehensive reporting will drive full compliance by 2025.
+}
+
+% Appendices
+\section*{Appendices}
+\label{sec:appendices}
+\addcontentsline{toc}{section}{Appendices}
+\sectionheader{Appendices}
+\subsection*{Full Compliance Table}
+\begin{table}[h]
+    \centering
+    \tiny
+    \begin{tabular}{p{2cm}p{3cm}p{2cm}p{1.5cm}p{2cm}p{2.5cm}p{3cm}}
+        \toprule
+        \textbf{Criterion} & \textbf{Description} & \textbf{Value (Unit)} & \textbf{Page} & \textbf{Standard} & \textbf{Status} & \textbf{Reason} \\
+        \midrule
+        {% for item in environmental_data + social_data + governance_data %}
+        \rowcolor{% if item.Compliance_Status == 'Compliant' %}lightgreen!20{% else %}lightblue!20{% endif %} {{ item.Criterion | escape }} & {{ item.Description | escape }} & {{ item.Extracted_Value | escape }} {{ '(' + item.Unit + ')' if item.Unit else '' }} & {{ item.Source_Page | escape }} & {{ item.Standard_Code | escape }} & \color{% if item.Compliance_Status == 'Compliant' %}emerald{% else %}red{% endif %} {{ item.Compliance_Status | escape }} & {{ item.Compliance_Reason | escape }} \\
+        {% endfor %}
+        \bottomrule
+    \end{tabular}
+    \caption{Complete Compliance Results ({{ total_criteria }} Criteria)}
+\end{table}
+\subsection*{Glossary}
+\begin{itemize}
+    \item \textbf{GRI}: Global Reporting Initiative
+    \item \textbf{IFRS}: International Financial Reporting Standards
+    \item \textbf{SASB}: Sustainability Accounting Standards Board
+\end{itemize}
+\subsection*{References}
+GRI Standards, IFRS S1/S2, SASB
+
+\end{document}

@@ -1,0 +1,17 @@
+python-dotenv
+python-dotenv
+pdfplumber
+sentence-transformers
+chromadb
+pandas
+pymupdf
+unstructured
+pytesseract
+pdf2image
+llama-cpp-python
+jinja2
+unstructured[pdf]
+pi_heif
+tabula
+tabula-py
+nltk

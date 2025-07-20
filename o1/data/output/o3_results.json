@@ -1,0 +1,2792 @@
+[
+  {
+    "category": "Economic",
+    "criterion": "Revenue",
+    "extracted_sentences": [
+      {
+        "criterion": "Revenue",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 9,
+        "text": "significant markets and/or customer groups served, including changes in the reporting period\n(new/re",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 9,
+        "text": "when the undertaking provides segment reporting as required by iors 8 operating segments in its\nfina",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 9,
+        "text": "the identification of\nthese additional esrs sectors shall be consistent with the way they have been ",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 10,
+        "text": "if the undertaking is based in an eu member state that allows for an exemption from the disclosure o",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 19,
+        "text": "oor the purposes of the disclosures required in paragraph 40, a group of products and/or services of",
+        "similarity": 1.0
+      }
+    ],
+    "summary": "Summary for Revenue: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5003590583801
+  },
+  {
+    "category": "Economic",
+    "criterion": "Profit",
+    "extracted_sentences": [
+      {
+        "criterion": "Profit",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 3,
+        "text": "the foundation is a not-for-profit corporation under the general corporation law of the state of\ndel",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 8,
+        "text": "9 this standard uses terminology suitable for profit-oriented entities, including\npublic-sector busi",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 8,
+        "text": "if entities with not-for-profit activities in the\nprivate sector or the public sector apply this sta",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 3,
+        "text": "the foundation is a not-for-profit corporation under the general corporation law of the\nstate of del",
+        "similarity": 1.0
+      }
+    ],
+    "summary": "Summary for Profit: Compliant based on 1 matches and 4 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5006499290466
+  },
+  {
+    "category": "Economic",
+    "criterion": "Financial Returns",
+    "extracted_sentences": [
+      {
+        "criterion": "Financial Returns",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 2,
+        "text": "Financial Returns: Returns on investments, dividends, or similar financial metrics",
+        "similarity": 0.7545775175094604
+      }
+    ],
+    "summary": "Summary for Financial Returns: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5009121894836
+  },
+  {
+    "category": "Economic",
+    "criterion": "Local Economic Contributions",
+    "extracted_sentences": [
+      {
+        "criterion": "Local Economic Contributions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 3,
+        "text": "Local Economic Contributions: Monetary contributions to local economies, e.g., taxes or investments",
+        "similarity": 0.8855088353157043
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 9,
+        "text": "Indirect Economic Performance: Contributions to local economies, jobs, and community welfare",
+        "similarity": 0.663209080696106
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 13,
+        "text": "23\n\nifrs s2 climate-related disclosures\u2014june 2023\n\n(i) information about the inputs the entity used,",
+        "similarity": 0.12556564807891846
+      }
+    ],
+    "summary": "Summary for Local Economic Contributions: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5012044906616
+  },
+  {
+    "category": "Economic",
+    "criterion": "Jobs Created",
+    "extracted_sentences": [
+      {
+        "criterion": "Jobs Created",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 4,
+        "text": "Jobs Created: Number of jobs created or supported in local communities",
+        "similarity": 0.6637142896652222
+      }
+    ],
+    "summary": "Summary for Jobs Created: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5014672279358
+  },
+  {
+    "category": "Economic",
+    "criterion": "Community Welfare Investments",
+    "extracted_sentences": [
+      {
+        "criterion": "Community Welfare Investments",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 5,
+        "text": "Community Welfare Investments: Amount invested in community development or welfare projects",
+        "similarity": 0.8844469785690308
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 5,
+        "text": "Community Investment:",
+        "similarity": 0.7711250185966492
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 49,
+        "text": "Community Investment: Monetary or resource investment in local community initiatives",
+        "similarity": 0.6946995258331299
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 21,
+        "text": "when targets address the prevention or mitigation of social impacts, they may be specified in\nterms ",
+        "similarity": 0.3462985157966614
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 10,
+        "text": "the undertaking shall disclose a description of its business model and value chain, including:\n(a) i",
+        "similarity": 0.10400518774986267
+      }
+    ],
+    "summary": "Summary for Community Welfare Investments: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5017321109772
+  },
+  {
+    "category": "Economic",
+    "criterion": "Sustainable Procurement Policies",
+    "extracted_sentences": [
+      {
+        "criterion": "Sustainable Procurement Policies",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 6,
+        "text": "Sustainable Procurement Policies: Policies ensuring suppliers meet sustainability standards",
+        "similarity": 0.918289303779602
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 10,
+        "text": "Sustainable Procurement: Practices ensuring suppliers meet sustainability standards",
+        "similarity": 0.842514157295227
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 18,
+        "text": "in describing the role and responsibilities of the administrative, management and\nsupervisory bodies",
+        "similarity": 0.41546928882598877
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 8,
+        "text": "this chapter sets disclosure requirements that enable an understanding of:\n(a) the elements of the u",
+        "similarity": 0.3966017961502075
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 34,
+        "text": "another entity might need to\nexplain how its use of natural resources or changes within its supply c",
+        "similarity": 0.39161568880081177
+      }
+    ],
+    "summary": "Summary for Sustainable Procurement Policies: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5019896030426
+  },
+  {
+    "category": "Economic",
+    "criterion": "Suppliers Assessed for Sustainability",
+    "extracted_sentences": [
+      {
+        "criterion": "Suppliers Assessed for Sustainability",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 7,
+        "text": "Suppliers Assessed for Sustainability: Number or percentage of suppliers assessed for sustainability",
+        "similarity": 0.9055429697036743
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 37,
+        "text": "Supplier Environmental Assessment: Review of suppliers' environmental practices",
+        "similarity": 0.816367506980896
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 10,
+        "text": "Sustainable Procurement: Practices ensuring suppliers meet sustainability standards",
+        "similarity": 0.7562098503112793
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 27,
+        "text": "Suppliers Assessed for Environmental Practices: Number or percentage of suppliers reviewed for envir",
+        "similarity": 0.7533988356590271
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 6,
+        "text": "Sustainable Procurement Policies: Policies ensuring suppliers meet sustainability standards",
+        "similarity": 0.7470988035202026
+      }
+    ],
+    "summary": "Summary for Suppliers Assessed for Sustainability: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5022375583649
+  },
+  {
+    "category": "Economic",
+    "criterion": "Local Suppliers Percentage",
+    "extracted_sentences": [
+      {
+        "criterion": "Local Suppliers Percentage",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 8,
+        "text": "Local Suppliers Percentage: Proportion of suppliers sourced from local regions",
+        "similarity": 0.8908399939537048
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 11,
+        "text": "Local Suppliers: Proportion of suppliers sourced from local regions",
+        "similarity": 0.8503926396369934
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 36,
+        "text": "primary data could be collected internally (for example,\nthrough the entity's own records), or exter",
+        "similarity": 0.27329403162002563
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 21,
+        "text": "oor example,\nthe undertaking may assess an increase of wages by a certain percentage for those below",
+        "similarity": 0.2582782506942749
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 20,
+        "text": "in preparing disclosures relating to its business model and value chain, the undertaking shall consi",
+        "similarity": 0.23743179440498352
+      }
+    ],
+    "summary": "Summary for Local Suppliers Percentage: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5024900436401
+  },
+  {
+    "category": "Economic",
+    "criterion": "Charitable Monetary Donations",
+    "extracted_sentences": [
+      {
+        "criterion": "Charitable Monetary Donations",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 9,
+        "text": "Charitable Monetary Donations: Total monetary contributions to charitable causes",
+        "similarity": 0.8705350756645203
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 12,
+        "text": "Charitable Donations: Monetary or in-kind contributions to charitable causes",
+        "similarity": 0.8336659669876099
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 10,
+        "text": "Charitable In-Kind Donations: Total value of in-kind contributions to charitable causes",
+        "similarity": 0.7324702739715576
+      }
+    ],
+    "summary": "Summary for Charitable Monetary Donations: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5027797222137
+  },
+  {
+    "category": "Economic",
+    "criterion": "Charitable In-Kind Donations",
+    "extracted_sentences": [
+      {
+        "criterion": "Charitable In-Kind Donations",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 10,
+        "text": "Charitable In-Kind Donations: Total value of in-kind contributions to charitable causes",
+        "similarity": 0.8530504107475281
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 12,
+        "text": "Charitable Donations: Monetary or in-kind contributions to charitable causes",
+        "similarity": 0.8428916335105896
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 9,
+        "text": "Charitable Monetary Donations: Total monetary contributions to charitable causes",
+        "similarity": 0.6875467300415039
+      }
+    ],
+    "summary": "Summary for Charitable In-Kind Donations: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5030417442322
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Total Waste Generated",
+    "extracted_sentences": [
+      {
+        "criterion": "Total Waste Generated",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 22,
+        "text": "Waste Generation: Total weight or volume of waste produced",
+        "similarity": 0.8611566424369812
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 11,
+        "text": "Total Waste Generated: Total weight or volume of waste produced across operations",
+        "similarity": 0.841211199760437
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 32,
+        "text": "Waste Intensity: Waste generated per unit of output or revenue",
+        "similarity": 0.8118315935134888
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 42,
+        "text": "Waste Intensity: Waste generated per unit of output or revenue",
+        "similarity": 0.8118315935134888
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 35,
+        "text": "Waste Minimization: Strategies to reduce total waste generation",
+        "similarity": 0.8086280226707458
+      }
+    ],
+    "summary": "Summary for Total Waste Generated: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5032894611359
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Hazardous Waste Generated",
+    "extracted_sentences": [
+      {
+        "criterion": "Hazardous Waste Generated",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 12,
+        "text": "Hazardous Waste Generated: Quantity of waste classified as hazardous",
+        "similarity": 0.8733886480331421
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 24,
+        "text": "Hazardous Waste: Quantity of waste classified as hazardous",
+        "similarity": 0.778535008430481
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 36,
+        "text": "Hazardous Chemicals: Use, storage, and disposal of hazardous substances",
+        "similarity": 0.6828437447547913
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 22,
+        "text": "Waste Generation: Total weight or volume of waste produced",
+        "similarity": 0.6712245941162109
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 28,
+        "text": "disclosure sfdr23 pillar 324 benchmark eu\nrequirement and reference reference regulation25 climate l",
+        "similarity": 0.5120882987976074
+      }
+    ],
+    "summary": "Summary for Hazardous Waste Generated: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5035769939423
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Scope 1 GHG Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "Scope 1 GHG Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 33,
+        "text": "GHG Emissions: Combined emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.8780791759490967
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 13,
+        "text": "Scope 1 GHG Emissions: Direct greenhouse gas emissions from owned or controlled sources",
+        "similarity": 0.8334323763847351
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 25,
+        "text": "GHG Emissions (Scope 1): Direct emissions from owned or controlled sources",
+        "similarity": 0.8235629796981812
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 16,
+        "text": "Total GHG Emissions: Combined greenhouse gas emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.7974240183830261
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 18,
+        "text": "whether Scope 1, Scope 2 or Scope 3 greenhouse gas emissions are\ncovered by the target.",
+        "similarity": 0.7528326511383057
+      }
+    ],
+    "summary": "Summary for Scope 1 GHG Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5038628578186
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Scope 2 GHG Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "Scope 2 GHG Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 33,
+        "text": "GHG Emissions: Combined emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.8612732887268066
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 13,
+        "text": "Scope 1 GHG Emissions: Direct greenhouse gas emissions from owned or controlled sources",
+        "similarity": 0.790505051612854
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 16,
+        "text": "Total GHG Emissions: Combined greenhouse gas emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.7871053218841553
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 25,
+        "text": "GHG Emissions (Scope 1): Direct emissions from owned or controlled sources",
+        "similarity": 0.7861766219139099
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 14,
+        "text": "Scope 2 GHG Emissions: Indirect greenhouse gas emissions from purchased electricity or heat",
+        "similarity": 0.7621777057647705
+      }
+    ],
+    "summary": "Summary for Scope 2 GHG Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5041220188141
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Scope 3 GHG Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "Scope 3 GHG Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 33,
+        "text": "GHG Emissions: Combined emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.8718975782394409
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 16,
+        "text": "Total GHG Emissions: Combined greenhouse gas emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.7933632135391235
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 13,
+        "text": "Scope 1 GHG Emissions: Direct greenhouse gas emissions from owned or controlled sources",
+        "similarity": 0.7711865305900574
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 25,
+        "text": "GHG Emissions (Scope 1): Direct emissions from owned or controlled sources",
+        "similarity": 0.771156907081604
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 22,
+        "text": "Scope 3 greenhouse gas emissions include the Scope 3\ncategories in the Greenhouse Gas Protocol Corpo",
+        "similarity": 0.7665684819221497
+      }
+    ],
+    "summary": "Summary for Scope 3 GHG Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5043969154358
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Total GHG Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "Total GHG Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 16,
+        "text": "Total GHG Emissions: Combined greenhouse gas emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.8323408365249634
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 33,
+        "text": "GHG Emissions: Combined emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.7844737768173218
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 41,
+        "text": "GHG Emissions Intensity: Greenhouse gas emissions per unit of output",
+        "similarity": 0.7763939499855042
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 31,
+        "text": "GHG Emissions Intensity: Greenhouse gas emissions per unit of output or revenue",
+        "similarity": 0.7503389120101929
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 25,
+        "text": "Annex 1\nand Total GHG (EU) No 2020/1818,\nemissions 575/2013; Article 5(1), 6\nparagraph 44 Commission",
+        "similarity": 0.7061412930488586
+      }
+    ],
+    "summary": "Summary for Total GHG Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5046498775482
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Ozone-Depleting Substances Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "Ozone-Depleting Substances Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 17,
+        "text": "Ozone-Depleting Substances Emissions: Total emissions of gases that harm the ozone layer",
+        "similarity": 0.925615131855011
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 27,
+        "text": "Ozone-Depleting Substances: Emissions of gases harming the ozone layer",
+        "similarity": 0.9249366521835327
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 21,
+        "text": "a factor describing the radiative forcing impact (degree of harm\nto the atmosphere) of one unit of a",
+        "similarity": 0.4889741539955139
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 22,
+        "text": "direct greenhouse gas emissions that occur from sources that\nare owned or controlled by an entity.\n\n",
+        "similarity": 0.4353982210159302
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 22,
+        "text": "scope 2 greenhouse gas emissions physically occur at the\nfacility where electricity is generated.\n\n",
+        "similarity": 0.4064961075782776
+      }
+    ],
+    "summary": "Summary for Ozone-Depleting Substances Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5048954486847
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Total Energy Consumption",
+    "extracted_sentences": [
+      {
+        "criterion": "Total Energy Consumption",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 18,
+        "text": "Total Energy Consumption: Total energy used across all operations",
+        "similarity": 0.8538895845413208
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 31,
+        "text": "Energy Consumption: Total energy used across operations",
+        "similarity": 0.8225593566894531
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 20,
+        "text": "Renewable Energy Consumption: Total energy consumed from renewable sources",
+        "similarity": 0.7684100866317749
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 29,
+        "text": "Energy Intensity: Energy consumption per unit of output or revenue",
+        "similarity": 0.7567398548126221
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 39,
+        "text": "Energy Intensity: Energy consumption relative to output or revenue",
+        "similarity": 0.7391386032104492
+      }
+    ],
+    "summary": "Summary for Total Energy Consumption: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5051333904266
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Electricity Consumption",
+    "extracted_sentences": [
+      {
+        "criterion": "Electricity Consumption",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 19,
+        "text": "Electricity Consumption: Total electricity consumed in operations",
+        "similarity": 0.8228586912155151
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 39,
+        "text": "Energy Intensity: Energy consumption relative to output or revenue",
+        "similarity": 0.721260666847229
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 29,
+        "text": "Energy Intensity: Energy consumption per unit of output or revenue",
+        "similarity": 0.7129673957824707
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 31,
+        "text": "Energy Consumption: Total energy used across operations",
+        "similarity": 0.6833450794219971
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 20,
+        "text": "Renewable Energy Consumption: Total energy consumed from renewable sources",
+        "similarity": 0.6643828749656677
+      }
+    ],
+    "summary": "Summary for Electricity Consumption: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5053761005402
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Renewable Energy Consumption",
+    "extracted_sentences": [
+      {
+        "criterion": "Renewable Energy Consumption",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 20,
+        "text": "Renewable Energy Consumption: Total energy consumed from renewable sources",
+        "similarity": 0.8619880676269531
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 28,
+        "text": "Renewable Energy Share: Percentage of energy sourced from renewables",
+        "similarity": 0.6712630987167358
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 39,
+        "text": "Energy Intensity: Energy consumption relative to output or revenue",
+        "similarity": 0.670210063457489
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 29,
+        "text": "Energy Intensity: Energy consumption per unit of output or revenue",
+        "similarity": 0.658667802810669
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 24,
+        "text": "disclosure sfdr23 pillar 324 benchmark eu\nrequirement and reference reference regulation25 climate l",
+        "similarity": 0.36825239658355713
+      }
+    ],
+    "summary": "Summary for Renewable Energy Consumption: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5056266784668
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Total Water Consumption",
+    "extracted_sentences": [
+      {
+        "criterion": "Total Water Consumption",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 32,
+        "text": "Water Consumption: Total volume of water used in processes",
+        "similarity": 0.8126392364501953
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 21,
+        "text": "Total Water Consumption: Total volume of water used in operational processes",
+        "similarity": 0.7968251705169678
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 30,
+        "text": "Water Intensity: Water usage per unit of output or revenue",
+        "similarity": 0.7653692960739136
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 20,
+        "text": "Water Use Efficiency: Measures to reduce water consumption per unit of output",
+        "similarity": 0.7491023540496826
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 46,
+        "text": "Water Use To Revenues: Water consumption compared to total revenue",
+        "similarity": 0.7239115238189697
+      }
+    ],
+    "summary": "Summary for Total Water Consumption: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5058641433716
+  },
+  {
+    "category": "Environmental",
+    "criterion": "NOx Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "NOx Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 22,
+        "text": "NOx Emissions: Emissions of nitrogen oxides (NOx) as air pollutants",
+        "similarity": 0.8301990032196045
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 34,
+        "text": "Other Emissions: Emissions of pollutants like NOx, SOx, or particulates",
+        "similarity": 0.7427924275398254
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 21,
+        "text": "these emissions are\npart of scope 3 category 15 (investments) as defined in the\ngreenhouse gas proto",
+        "similarity": 0.42091453075408936
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 22,
+        "text": "direct greenhouse gas emissions that occur from sources that\nare owned or controlled by an entity.\n\n",
+        "similarity": 0.4093458950519562
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 42,
+        "text": "net greenhouse gas emissions targets are the entity's\ntargeted gross greenhouse gas emissions minus ",
+        "similarity": 0.40807604789733887
+      }
+    ],
+    "summary": "Summary for NOx Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5060966014862
+  },
+  {
+    "category": "Environmental",
+    "criterion": "SOx Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "SOx Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 23,
+        "text": "SOx Emissions: Emissions of sulfur oxides (SOx) as air pollutants",
+        "similarity": 0.7811181545257568
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 34,
+        "text": "Other Emissions: Emissions of pollutants like NOx, SOx, or particulates",
+        "similarity": 0.6811763048171997
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 21,
+        "text": "these emissions are\npart of scope 3 category 15 (investments) as defined in the\ngreenhouse gas proto",
+        "similarity": 0.34927260875701904
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 22,
+        "text": "direct greenhouse gas emissions that occur from sources that\nare owned or controlled by an entity.\n\n",
+        "similarity": 0.3200013339519501
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 22,
+        "text": "scope 2 greenhouse gas emissions physically occur at the\nfacility where electricity is generated.\n\n",
+        "similarity": 0.30569928884506226
+      }
+    ],
+    "summary": "Summary for SOx Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5063364505768
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Particulate Emissions",
+    "extracted_sentences": [
+      {
+        "criterion": "Particulate Emissions",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 24,
+        "text": "Particulate Emissions: Emissions of particulate matter as air pollutants",
+        "similarity": 0.8598055839538574
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 34,
+        "text": "Other Emissions: Emissions of pollutants like NOx, SOx, or particulates",
+        "similarity": 0.7297909259796143
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 35,
+        "text": "data based on direct measurement\n\ntwo methods are used to quantify scope 3 greenhouse gas emissions:",
+        "similarity": 0.49928534030914307
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 30,
+        "text": "if an entity uses emission factors to estimate its greenhouse gas emissions, the\nentity shall use\u2014as",
+        "similarity": 0.4873720407485962
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 42,
+        "text": "net greenhouse gas emissions targets are the entity's\ntargeted gross greenhouse gas emissions minus ",
+        "similarity": 0.48522448539733887
+      }
+    ],
+    "summary": "Summary for Particulate Emissions: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5065989494324
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Waste Reduction Strategies",
+    "extracted_sentences": [
+      {
+        "criterion": "Waste Reduction Strategies",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 25,
+        "text": "Waste Reduction Strategies: Strategies implemented to reduce total waste generation",
+        "similarity": 0.9024167656898499
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 35,
+        "text": "Waste Minimization: Strategies to reduce total waste generation",
+        "similarity": 0.828587532043457
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 23,
+        "text": "Waste Reused/Recycled: Amount of waste diverted for reuse or recycling",
+        "similarity": 0.6730331182479858
+      }
+    ],
+    "summary": "Summary for Waste Reduction Strategies: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5068352222443
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Hazardous Chemicals Usage",
+    "extracted_sentences": [
+      {
+        "criterion": "Hazardous Chemicals Usage",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 26,
+        "text": "Hazardous Chemicals Usage: Total volume or quantity of hazardous chemicals used",
+        "similarity": 0.8250917196273804
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 36,
+        "text": "Hazardous Chemicals: Use, storage, and disposal of hazardous substances",
+        "similarity": 0.8004763126373291
+      }
+    ],
+    "summary": "Summary for Hazardous Chemicals Usage: Compliant based on 1 matches and 2 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5070595741272
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Suppliers Assessed for Environmental Practices",
+    "extracted_sentences": [
+      {
+        "criterion": "Suppliers Assessed for Environmental Practices",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 37,
+        "text": "Supplier Environmental Assessment: Review of suppliers' environmental practices",
+        "similarity": 0.9129726886749268
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 27,
+        "text": "Suppliers Assessed for Environmental Practices: Number or percentage of suppliers reviewed for envir",
+        "similarity": 0.9114087820053101
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 7,
+        "text": "Suppliers Assessed for Sustainability: Number or percentage of suppliers assessed for sustainability",
+        "similarity": 0.8100061416625977
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 48,
+        "text": "Suppliers Assessed for Social Practices: Number or percentage of suppliers evaluated for labor and s",
+        "similarity": 0.7088380455970764
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 10,
+        "text": "Sustainable Procurement: Practices ensuring suppliers meet sustainability standards",
+        "similarity": 0.6991732120513916
+      }
+    ],
+    "summary": "Summary for Suppliers Assessed for Environmental Practices: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5072901248932
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Raw Materials Consumption",
+    "extracted_sentences": [
+      {
+        "criterion": "Raw Materials Consumption",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 28,
+        "text": "Raw Materials Consumption: Total quantity of raw materials used in production",
+        "similarity": 0.9192456603050232
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 38,
+        "text": "Material Consumption: Quantity of raw materials used in production",
+        "similarity": 0.8969426155090332
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 25,
+        "text": "a value chain encompasses the interactions, resources and\nrelationships an entity uses and depends o",
+        "similarity": 0.17142631113529205
+      }
+    ],
+    "summary": "Summary for Raw Materials Consumption: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.507563829422
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Energy Intensity",
+    "extracted_sentences": [
+      {
+        "criterion": "Energy Intensity",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 24,
+        "text": "disclosure sfdr23 pillar 324 benchmark eu\nrequirement and reference reference regulation25 climate l",
+        "similarity": 1.0
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 39,
+        "text": "Energy Intensity: Energy consumption relative to output or revenue",
+        "similarity": 0.7092850208282471
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 29,
+        "text": "Energy Intensity: Energy consumption per unit of output or revenue",
+        "similarity": 0.6767935752868652
+      }
+    ],
+    "summary": "Summary for Energy Intensity: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5080602169037
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Water Intensity",
+    "extracted_sentences": [
+      {
+        "criterion": "Water Intensity",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 40,
+        "text": "Water Intensity: Water use relative to output or revenue",
+        "similarity": 0.6994023323059082
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 30,
+        "text": "Water Intensity: Water usage per unit of output or revenue",
+        "similarity": 0.6719481945037842
+      }
+    ],
+    "summary": "Summary for Water Intensity: Compliant based on 1 matches and 2 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5084819793701
+  },
+  {
+    "category": "Environmental",
+    "criterion": "GHG Emissions Intensity",
+    "extracted_sentences": [
+      {
+        "criterion": "GHG Emissions Intensity",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 41,
+        "text": "GHG Emissions Intensity: Greenhouse gas emissions per unit of output",
+        "similarity": 0.862446665763855
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 31,
+        "text": "GHG Emissions Intensity: Greenhouse gas emissions per unit of output or revenue",
+        "similarity": 0.8305047750473022
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 33,
+        "text": "GHG Emissions: Combined emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.6759934425354004
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 16,
+        "text": "Total GHG Emissions: Combined greenhouse gas emissions across all scopes (1, 2, and 3)",
+        "similarity": 0.6549049615859985
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 30,
+        "text": "aggregation of greenhouse gases into co2 equivalent using global\nwarming potential values\n\nparagraph",
+        "similarity": 0.5444769263267517
+      }
+    ],
+    "summary": "Summary for GHG Emissions Intensity: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5088164806366
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Waste Intensity",
+    "extracted_sentences": [
+      {
+        "criterion": "Waste Intensity",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 32,
+        "text": "Waste Intensity: Waste generated per unit of output or revenue",
+        "similarity": 0.7873378992080688
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 42,
+        "text": "Waste Intensity: Waste generated per unit of output or revenue",
+        "similarity": 0.7873378992080688
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 22,
+        "text": "Waste Generation: Total weight or volume of waste produced",
+        "similarity": 0.653597354888916
+      }
+    ],
+    "summary": "Summary for Waste Intensity: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5091238021851
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Sourcing of Materials",
+    "extracted_sentences": [
+      {
+        "criterion": "Sourcing of Materials",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 33,
+        "text": "Sourcing of Materials: Information on the sourcing of materials, including use of reclaimed or recyc",
+        "similarity": 0.7791404724121094
+      },
+      {
+        "standard": "ifrs_s2.pdf",
+        "page_number": 24,
+        "text": "relationships in the entity's operations, such as human\nresources; those along its supply, marketing",
+        "similarity": 0.350055456161499
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 25,
+        "text": "a value chain encompasses the interactions, resources and\nrelationships an entity uses and depends o",
+        "similarity": 0.32363998889923096
+      }
+    ],
+    "summary": "Summary for Sourcing of Materials: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5094139575958
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Integrated Water Resource Management",
+    "extracted_sentences": [
+      {
+        "criterion": "Integrated Water Resource Management",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 34,
+        "text": "Integrated Water Resource Management: Description of practices for integrated water resource managem",
+        "similarity": 0.936759352684021
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 27,
+        "text": "disclosure sfdr23 pillar 324 benchmark eu\nrequirement and reference reference regulation25 climate l",
+        "similarity": 0.4110596179962158
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 32,
+        "text": "processes to identify and esrs e2 pollution (paragraph 11)\nassess material impacts, risks esrs e3 wa",
+        "similarity": 0.3579375743865967
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 26,
+        "text": "b3 for example, if an entity\u2019s business model depends on a natural resource\u2014\nsuch as water\u2014the entit",
+        "similarity": 0.3173673748970032
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 18,
+        "text": "in describing the role and responsibilities of the administrative, management and\nsupervisory bodies",
+        "similarity": 0.27761736512184143
+      }
+    ],
+    "summary": "Summary for Integrated Water Resource Management: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5096933841705
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Biodiversity Impacts",
+    "extracted_sentences": [
+      {
+        "criterion": "Biodiversity Impacts",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 35,
+        "text": "Biodiversity Impacts: Assessment of the company's impacts on biodiversity",
+        "similarity": 0.8370646834373474
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 30,
+        "text": "Land Use in Biodiversity Areas:",
+        "similarity": 0.6910184025764465
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 32,
+        "text": "processes to identify and esrs e2 pollution (paragraph 11)\nassess material impacts, risks esrs e3 wa",
+        "similarity": 0.5015185475349426
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 5,
+        "text": "the undertaking\nmay identify the matter at the level of topic, sub-topic or sub-sub-topic;\n(b) brief",
+        "similarity": 0.47791409492492676
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 32,
+        "text": "esrs 2 disclosure\nrelated esrs paragraph\nrequirement\nsbm\u20133 material impacts, risks esrs e1 climate c",
+        "similarity": 0.4368508458137512
+      }
+    ],
+    "summary": "Summary for Biodiversity Impacts: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5099589824677
+  },
+  {
+    "category": "Environmental",
+    "criterion": "Engagement on Environmental Issues",
+    "extracted_sentences": [
+      {
+        "criterion": "Engagement on Environmental Issues",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 36,
+        "text": "Engagement on Environmental Issues: Description of how the company engages with suppliers and consum",
+        "similarity": 0.8038910627365112
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 51,
+        "text": "Engagement on Sustainability Issues: Description of how the company engages with suppliers and consu",
+        "similarity": 0.6546003222465515
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 12,
+        "text": "the undertaking shall disclose the following information:\n(a) a description of the methodologies and",
+        "similarity": 0.41731980443000793
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 16,
+        "text": "oor each target, the disclosure shall include the\nfollowing information:\n(a) a description of the re",
+        "similarity": 0.4057544469833374
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 18,
+        "text": "the identification and assessment of material risks, opportunities and impacts;\niii. related policie",
+        "similarity": 0.40171730518341064
+      }
+    ],
+    "summary": "Summary for Engagement on Environmental Issues: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5102174282074
+  },
+  {
+    "category": "Social",
+    "criterion": "Total Employee Training Hours",
+    "extracted_sentences": [
+      {
+        "criterion": "Total Employee Training Hours",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 37,
+        "text": "Total Employee Training Hours: Total hours employees spend in training programs",
+        "similarity": 0.9192423820495605
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 59,
+        "text": "Employee Training Hours: Total hours employees spend in training programs",
+        "similarity": 0.9022091031074524
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 80,
+        "text": "Average Training Hours: Average training hours per employee",
+        "similarity": 0.863042414188385
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 38,
+        "text": "Average Training Hours per Employee: Average training hours per employee across the workforce",
+        "similarity": 0.8413513898849487
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 76,
+        "text": "Employee Health & Safety Training Hours: Hours spent on health and safety training",
+        "similarity": 0.6883647441864014
+      }
+    ],
+    "summary": "Summary for Total Employee Training Hours: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5104966163635
+  },
+  {
+    "category": "Social",
+    "criterion": "Average Training Hours per Employee",
+    "extracted_sentences": [
+      {
+        "criterion": "Average Training Hours per Employee",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 80,
+        "text": "Average Training Hours: Average training hours per employee",
+        "similarity": 0.9665747880935669
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 38,
+        "text": "Average Training Hours per Employee: Average training hours per employee across the workforce",
+        "similarity": 0.9253396987915039
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 59,
+        "text": "Employee Training Hours: Total hours employees spend in training programs",
+        "similarity": 0.8116788864135742
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 37,
+        "text": "Total Employee Training Hours: Total hours employees spend in training programs",
+        "similarity": 0.7978519201278687
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 26,
+        "text": "at the same time, that ability will\ndepend, in part, on the entity\u2019s employment practices\u2014such as wh",
+        "similarity": 0.2895117998123169
+      }
+    ],
+    "summary": "Summary for Average Training Hours per Employee: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5107655525208
+  },
+  {
+    "category": "Social",
+    "criterion": "Occupational Injury Count",
+    "extracted_sentences": [
+      {
+        "criterion": "Occupational Injury Count",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 39,
+        "text": "Occupational Injury Count: Total number of work-related injuries to employees",
+        "similarity": 0.9195336103439331
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 63,
+        "text": "Occupational Injuries: Count of work-related injuries to employees",
+        "similarity": 0.8868039846420288
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 73,
+        "text": "Accidents Total: Total number of workplace accidents",
+        "similarity": 0.674317479133606
+      }
+    ],
+    "summary": "Summary for Occupational Injury Count: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.511011838913
+  },
+  {
+    "category": "Social",
+    "criterion": "Safety Programs",
+    "extracted_sentences": [
+      {
+        "criterion": "Safety Programs",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 40,
+        "text": "Safety Programs: Programs implemented to ensure employee health and safety",
+        "similarity": 0.8316196203231812
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 75,
+        "text": "Health & Safety Training: Training programs focused on safety practices",
+        "similarity": 0.6849683523178101
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 65,
+        "text": "Occupational Health and Safety: Programs and metrics to ensure employee safety",
+        "similarity": 0.65709388256073
+      }
+    ],
+    "summary": "Summary for Safety Programs: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5112519264221
+  },
+  {
+    "category": "Social",
+    "criterion": "Permanent Employees",
+    "extracted_sentences": [
+      {
+        "criterion": "Permanent Employees",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 41,
+        "text": "Permanent Employees: Number of employees on permanent contracts",
+        "similarity": 0.7705289721488953
+      }
+    ],
+    "summary": "Summary for Permanent Employees: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5115194320679
+  },
+  {
+    "category": "Social",
+    "criterion": "Temporary Employees",
+    "extracted_sentences": [
+      {
+        "criterion": "Temporary Employees",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 42,
+        "text": "Temporary Employees: Number of employees on temporary contracts",
+        "similarity": 0.7690496444702148
+      }
+    ],
+    "summary": "Summary for Temporary Employees: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5117769241333
+  },
+  {
+    "category": "Social",
+    "criterion": "Gender Distribution",
+    "extracted_sentences": [
+      {
+        "criterion": "Gender Distribution",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 43,
+        "text": "Gender Distribution: Breakdown of employees by gender (e.g., male, female, other)",
+        "similarity": 0.7487697601318359
+      }
+    ],
+    "summary": "Summary for Gender Distribution: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5120205879211
+  },
+  {
+    "category": "Social",
+    "criterion": "Training Programs Offered",
+    "extracted_sentences": [
+      {
+        "criterion": "Training Programs Offered",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 44,
+        "text": "Training Programs Offered: Number or types of structured training programs for skill development",
+        "similarity": 0.7695420980453491
+      }
+    ],
+    "summary": "Summary for Training Programs Offered: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5122532844543
+  },
+  {
+    "category": "Social",
+    "criterion": "Human Rights Policy",
+    "extracted_sentences": [
+      {
+        "criterion": "Human Rights Policy",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 30,
+        "text": "disclosure sfdr23 pillar 324 benchmark eu\nrequirement and reference reference regulation25 climate l",
+        "similarity": 1.0
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 45,
+        "text": "Human Rights Policy: Existence of a policy committing to human rights standards",
+        "similarity": 0.8326809406280518
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 68,
+        "text": "Human Rights: Commitment to uphold human rights standards",
+        "similarity": 0.779135525226593
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 30,
+        "text": "indicator number 10 delegated\nrespect of ungps on table #1 annex 1 regulation (eu)\nbusiness and huma",
+        "similarity": 0.5133253335952759
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 21,
+        "text": "when targets address the prevention or mitigation of social impacts, they may be specified in\nterms ",
+        "similarity": 0.4806177020072937
+      }
+    ],
+    "summary": "Summary for Human Rights Policy: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5125041007996
+  },
+  {
+    "category": "Social",
+    "criterion": "Diversity Initiatives",
+    "extracted_sentences": [
+      {
+        "criterion": "Diversity Initiatives",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 46,
+        "text": "Diversity Initiatives: Initiatives or programs to promote diversity and inclusion",
+        "similarity": 0.8998767137527466
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 69,
+        "text": "Diversity and Equal Opportunity: Initiatives to promote diversity and inclusion",
+        "similarity": 0.8075228929519653
+      }
+    ],
+    "summary": "Summary for Diversity Initiatives: Compliant based on 1 matches and 2 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5127537250519
+  },
+  {
+    "category": "Social",
+    "criterion": "Worker Rights Policies",
+    "extracted_sentences": [
+      {
+        "criterion": "Worker Rights Policies",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 47,
+        "text": "Worker Rights Policies: Policies ensuring fair treatment and rights of workers",
+        "similarity": 0.8998733758926392
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 70,
+        "text": "Worker Rights: Policies supporting fair treatment of workers",
+        "similarity": 0.8548004627227783
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 29,
+        "text": "and n. 4 table #3 of\nchain workers annex 1\nparagraph 18\nesrs s2- indicator number delegated\n1nonresp",
+        "similarity": 0.4932965636253357
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 29,
+        "text": "2- sbm3 \u2013 s2 indicators number\nsignificant risk of child 12 and n. 13 table\nlabour or forced #3 of a",
+        "similarity": 0.4166404604911804
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 30,
+        "text": "disclosure sfdr23 pillar 324 benchmark eu\nrequirement and reference reference regulation25 climate l",
+        "similarity": 0.3877781629562378
+      }
+    ],
+    "summary": "Summary for Worker Rights Policies: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.513026714325
+  },
+  {
+    "category": "Social",
+    "criterion": "Suppliers Assessed for Social Practices",
+    "extracted_sentences": [
+      {
+        "criterion": "Suppliers Assessed for Social Practices",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 48,
+        "text": "Suppliers Assessed for Social Practices: Number or percentage of suppliers evaluated for labor and s",
+        "similarity": 0.9285644888877869
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 71,
+        "text": "Supplier Social Assessment: Evaluation of suppliers' labor and social practices",
+        "similarity": 0.8739878535270691
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 27,
+        "text": "Suppliers Assessed for Environmental Practices: Number or percentage of suppliers reviewed for envir",
+        "similarity": 0.7296121716499329
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 37,
+        "text": "Supplier Environmental Assessment: Review of suppliers' environmental practices",
+        "similarity": 0.6945570707321167
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 7,
+        "text": "Suppliers Assessed for Sustainability: Number or percentage of suppliers assessed for sustainability",
+        "similarity": 0.6872085332870483
+      }
+    ],
+    "summary": "Summary for Suppliers Assessed for Social Practices: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5132699012756
+  },
+  {
+    "category": "Social",
+    "criterion": "Community Investment",
+    "extracted_sentences": [
+      {
+        "criterion": "Community Investment",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 5,
+        "text": "Community Investment:",
+        "similarity": 0.990304708480835
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 49,
+        "text": "Community Investment: Monetary or resource investment in local community initiatives",
+        "similarity": 0.8129876852035522
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 5,
+        "text": "Community Welfare Investments: Amount invested in community development or welfare projects",
+        "similarity": 0.6968759298324585
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 10,
+        "text": "the undertaking shall disclose a description of its business model and value chain, including:\n(a) i",
+        "similarity": 0.19418281316757202
+      }
+    ],
+    "summary": "Summary for Community Investment: Compliant based on 1 matches and 4 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5135509967804
+  },
+  {
+    "category": "Social",
+    "criterion": "Local Community Impacts",
+    "extracted_sentences": [
+      {
+        "criterion": "Local Community Impacts",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 72,
+        "text": "Local Community Impacts: Effects of operations on local communities",
+        "similarity": 0.8861128091812134
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 50,
+        "text": "Local Community Impacts: Assessment of the company's impacts on local communities, both positive and",
+        "similarity": 0.8167389035224915
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 5,
+        "text": "Expenditures supporting local community programs and development",
+        "similarity": 0.6974364519119263
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 49,
+        "text": "Community Investment: Monetary or resource investment in local community initiatives",
+        "similarity": 0.6887025833129883
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 16,
+        "text": "oor each target, the disclosure shall include the\nfollowing information:\n(a) a description of the re",
+        "similarity": 0.24256709218025208
+      }
+    ],
+    "summary": "Summary for Local Community Impacts: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5138037204742
+  },
+  {
+    "category": "Social",
+    "criterion": "Engagement on Sustainability Issues",
+    "extracted_sentences": [
+      {
+        "criterion": "Engagement on Sustainability Issues",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 51,
+        "text": "Engagement on Sustainability Issues: Description of how the company engages with suppliers and consu",
+        "similarity": 0.8004758358001709
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 64,
+        "text": "Stakeholder Engagement on Sustainability: Description of how the company engages with stakeholders o",
+        "similarity": 0.7511536478996277
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 36,
+        "text": "Engagement on Environmental Issues: Description of how the company engages with suppliers and consum",
+        "similarity": 0.6926578283309937
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 91,
+        "text": "Sustainability Strategy:",
+        "similarity": 0.6876524686813354
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 55,
+        "text": "Sustainability Goals: Specific goals or targets defined for sustainability",
+        "similarity": 0.6525570750236511
+      }
+    ],
+    "summary": "Summary for Engagement on Sustainability Issues: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.514048576355
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Corruption Incidents Count",
+    "extracted_sentences": [
+      {
+        "criterion": "Corruption Incidents Count",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 52,
+        "text": "Corruption Incidents Count: Total number of recorded corruption incidents",
+        "similarity": 0.9399930834770203
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 89,
+        "text": "Corruption Incidents: Recorded incidents of corruption",
+        "similarity": 0.8337457776069641
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 31,
+        "text": "esrs s4-4 indicator number 14\nhuman rights table #3 of annex\nissues and 1\nincidents paragraph\n35\nesr",
+        "similarity": 0.35996100306510925
+      }
+    ],
+    "summary": "Summary for Corruption Incidents Count: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5142998695374
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Anti-Corruption Training Hours",
+    "extracted_sentences": [
+      {
+        "criterion": "Anti-Corruption Training Hours",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 53,
+        "text": "Anti-Corruption Training Hours: Total hours of training provided to prevent corruption",
+        "similarity": 0.9569728970527649
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 90,
+        "text": "Anti-Corruption Training:",
+        "similarity": 0.8231204152107239
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 90,
+        "text": "Training to prevent corruption practices",
+        "similarity": 0.7779841423034668
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 31,
+        "text": "esrs s4-4 indicator number 14\nhuman rights table #3 of annex\nissues and 1\nincidents paragraph\n35\nesr",
+        "similarity": 0.26978614926338196
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 6,
+        "text": "the disclosure shall include a description of how the administrative, management and supervisory\nbod",
+        "similarity": 0.15434105694293976
+      }
+    ],
+    "summary": "Summary for Anti-Corruption Training Hours: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5145540237427
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Materiality Assessment Process",
+    "extracted_sentences": [
+      {
+        "criterion": "Materiality Assessment Process",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 1,
+        "text": "esrs 2 general disclosures\ntable of contents\nobjective\n1. basis for preparation\ndisclosure requireme",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 10,
+        "text": "its purpose; and\nv. how its outcome is taken into account by the undertaking;\n(b) the undertaking\u2019s ",
+        "similarity": 1.0
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 12,
+        "text": "4. impact, risk and opportunity management\n4.1 disclosures on the materiality assessment process\n50.",
+        "similarity": 1.0
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 54,
+        "text": "Materiality Assessment Process: Process to identify and evaluate significant risks and impacts",
+        "similarity": 0.9101389050483704
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 191,
+        "text": "Materiality Assessment: Process to evaluate significant risks and impacts",
+        "similarity": 0.8802417516708374
+      }
+    ],
+    "summary": "Summary for Materiality Assessment Process: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5148096084595
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Sustainability Goals",
+    "extracted_sentences": [
+      {
+        "criterion": "Sustainability Goals",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 55,
+        "text": "Sustainability Goals: Specific goals or targets defined for sustainability",
+        "similarity": 0.9457494020462036
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 91,
+        "text": "Defined goals and plans for sustainability",
+        "similarity": 0.9171726703643799
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 121,
+        "text": "Target Achievement Plans: Strategies to meet sustainability targets",
+        "similarity": 0.8105114698410034
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 91,
+        "text": "Sustainability Strategy:",
+        "similarity": 0.7958707213401794
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 108,
+        "text": "Target-Setting and Progress Oversight: Monitoring of sustainability goals and progress",
+        "similarity": 0.7079768180847168
+      }
+    ],
+    "summary": "Summary for Sustainability Goals: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5150513648987
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Sustainability Management Methods",
+    "extracted_sentences": [
+      {
+        "criterion": "Sustainability Management Methods",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 56,
+        "text": "Sustainability Management Methods: Methods used to address key sustainability topics",
+        "similarity": 0.9343224763870239
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 92,
+        "text": "Management Approach: Methods to address key sustainability topics",
+        "similarity": 0.8741008043289185
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 91,
+        "text": "Sustainability Strategy:",
+        "similarity": 0.8140639662742615
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 109,
+        "text": "Management\u2019s Role in Governance Processes: Role of management in sustainability governance",
+        "similarity": 0.6612224578857422
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 107,
+        "text": "Consideration in Strategy and Risk Management: Integration of sustainability into strategy and risk",
+        "similarity": 0.6552829146385193
+      }
+    ],
+    "summary": "Summary for Sustainability Management Methods: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5153136253357
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Governance Framework",
+    "extracted_sentences": [
+      {
+        "criterion": "Governance Framework",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 57,
+        "text": "Governance Framework: Structure for overseeing economic, environmental, and social issues",
+        "similarity": 0.7921603918075562
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 93,
+        "text": "Governance Structure: Framework for overseeing economic, environmental, and social issues",
+        "similarity": 0.7451502084732056
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 10,
+        "text": "Governance\n26",
+        "similarity": 0.7366455793380737
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 17,
+        "text": "Governance\n17",
+        "similarity": 0.7075361013412476
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 5,
+        "text": "Governance\n18.",
+        "similarity": 0.6813920736312866
+      }
+    ],
+    "summary": "Summary for Governance Framework: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5155568122864
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Key Sustainability Risks",
+    "extracted_sentences": [
+      {
+        "criterion": "Key Sustainability Risks",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 58,
+        "text": "Key Sustainability Risks: Identification of critical sustainability-related risks",
+        "similarity": 0.8891357779502869
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 12,
+        "text": "Sustainability-related risks and opportunities\n30",
+        "similarity": 0.8704229593276978
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 27,
+        "text": "Identifying sustainability-related risks and opportunities\nB6",
+        "similarity": 0.8143734931945801
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 204,
+        "text": "Connections Between Impacts and Risks: Links between sustainability impacts and risks",
+        "similarity": 0.7852274775505066
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 7,
+        "text": "For the purposes of this\nStandard, these risks and opportunities are collectively referred to as\n\u2018su",
+        "similarity": 0.7747069001197815
+      }
+    ],
+    "summary": "Summary for Key Sustainability Risks: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5157933235168
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Anti-Fraud Policies",
+    "extracted_sentences": [
+      {
+        "criterion": "Anti-Fraud Policies",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 59,
+        "text": "Anti-Fraud Policies: Policies designed to prevent fraudulent activities",
+        "similarity": 0.9347594976425171
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 94,
+        "text": "Anti-Fraud Anti-Corruption: Policies to prevent fraud and corruption",
+        "similarity": 0.8161026835441589
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 31,
+        "text": "esrs s4-4 indicator number 14\nhuman rights table #3 of annex\nissues and 1\nincidents paragraph\n35\nesr",
+        "similarity": 0.29840922355651855
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 9,
+        "text": "7 this information supports the information needs of financial market participants subject to regula",
+        "similarity": 0.26315027475357056
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 13,
+        "text": "specifically, the entity shall\ndisclose information about:\n(a) how the entity has responded to, and ",
+        "similarity": 0.22868403792381287
+      }
+    ],
+    "summary": "Summary for Anti-Fraud Policies: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5160253047943
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Supply Chain Overview",
+    "extracted_sentences": [
+      {
+        "criterion": "Supply Chain Overview",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 60,
+        "text": "Supply Chain Overview: Description or mapping of supply chain structure and practices",
+        "similarity": 0.861659049987793
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 95,
+        "text": "Supply Chain Details: Overview of supply chain structure and practices",
+        "similarity": 0.8288973569869995
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 63,
+        "text": "Supply Chain Details: Description of the company's supply chain, including structure and key supplie",
+        "similarity": 0.8063271045684814
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 20,
+        "text": "the description may provide a high-level overview of\nthe key features of upstream and/or downstream ",
+        "similarity": 0.49876028299331665
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 25,
+        "text": "a value chain encompasses the interactions, resources and\nrelationships an entity uses and depends o",
+        "similarity": 0.48672011494636536
+      }
+    ],
+    "summary": "Summary for Supply Chain Overview: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5162677764893
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Stakeholder Engagement Process",
+    "extracted_sentences": [
+      {
+        "criterion": "Stakeholder Engagement Process",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 96,
+        "text": "Stakeholder Engagement: Processes to involve stakeholders in decisions",
+        "similarity": 0.9242528676986694
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 61,
+        "text": "Stakeholder Engagement Process: Processes for involving stakeholders in decision-making",
+        "similarity": 0.9091147184371948
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 10,
+        "text": "whether engagement with them occurs and for which categories of stakeholders;\niii.",
+        "similarity": 0.783528208732605
+      },
+      {
+        "standard": "ESRS_2.pdf",
+        "page_number": 10,
+        "text": "whether engagement with them occurs and for which categories of stakeholders;\niii.",
+        "similarity": 0.783528208732605
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 64,
+        "text": "Stakeholder Engagement on Sustainability: Description of how the company engages with stakeholders o",
+        "similarity": 0.697947084903717
+      }
+    ],
+    "summary": "Summary for Stakeholder Engagement Process: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5165157318115
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Compensation Structure",
+    "extracted_sentences": [
+      {
+        "criterion": "Compensation Structure",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 62,
+        "text": "Compensation Structure: Details of compensation policies and their structure",
+        "similarity": 0.786853551864624
+      }
+    ],
+    "summary": "Summary for Compensation Structure: Compliant based on 1 matches and 1 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5167429447174
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Supply Chain Details",
+    "extracted_sentences": [
+      {
+        "criterion": "Supply Chain Details",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 63,
+        "text": "Supply Chain Details: Description of the company's supply chain, including structure and key supplie",
+        "similarity": 0.8765240907669067
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 95,
+        "text": "Supply Chain Details: Overview of supply chain structure and practices",
+        "similarity": 0.8646889925003052
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 60,
+        "text": "Supply Chain Overview: Description or mapping of supply chain structure and practices",
+        "similarity": 0.8071010112762451
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 34,
+        "text": "the entity might need to link the information about its use of\nnatural resources or changes within i",
+        "similarity": 0.5187313556671143
+      },
+      {
+        "standard": "ifrs_s1.pdf",
+        "page_number": 25,
+        "text": "a value chain encompasses the interactions, resources and\nrelationships an entity uses and depends o",
+        "similarity": 0.5069109201431274
+      }
+    ],
+    "summary": "Summary for Supply Chain Details: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5169734954834
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Stakeholder Engagement on Sustainability",
+    "extracted_sentences": [
+      {
+        "criterion": "Stakeholder Engagement on Sustainability",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 64,
+        "text": "Stakeholder Engagement on Sustainability: Description of how the company engages with stakeholders o",
+        "similarity": 0.9124096035957336
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 96,
+        "text": "Stakeholder Engagement: Processes to involve stakeholders in decisions",
+        "similarity": 0.7571126222610474
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 51,
+        "text": "Engagement on Sustainability Issues: Description of how the company engages with suppliers and consu",
+        "similarity": 0.7276489734649658
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 61,
+        "text": "Stakeholder Engagement Process: Processes for involving stakeholders in decision-making",
+        "similarity": 0.6970188021659851
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 91,
+        "text": "Sustainability Strategy:",
+        "similarity": 0.6663241386413574
+      }
+    ],
+    "summary": "Summary for Stakeholder Engagement on Sustainability: Compliant based on 1 matches and 5 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5172219276428
+  },
+  {
+    "category": "Institutional and Governance",
+    "criterion": "Remuneration Details",
+    "extracted_sentences": [
+      {
+        "criterion": "Remuneration Details",
+        "value": "None",
+        "source": "data/reports/btg-pactual.pdf",
+        "page_number": 0,
+        "similarity": 1.0
+      }
+    ],
+    "standard_info": [
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 97,
+        "text": "Remuneration Details: Details of compensation policies and structure",
+        "similarity": 0.916210412979126
+      },
+      {
+        "standard": "UNCTAD_requirements.csv",
+        "page_number": 65,
+        "text": "Remuneration Details: Information on compensation policies and how remuneration is linked to sustain",
+        "similarity": 0.7802472710609436
+      },
+      {
+        "standard": "UNEP_requirements.csv",
+        "page_number": 81,
+        "text": "Remuneration Linked to Sustainability: Pay tied to achieving sustainability goals",
+        "similarity": 0.6595426797866821
+      }
+    ],
+    "summary": "Summary for Remuneration Details: Compliant based on 1 matches and 3 standards.",
+    "document_name": "btg-pactual.pdf",
+    "processing_time": 774.5174617767334
+  }
+]
