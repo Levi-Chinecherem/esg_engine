@@ -1,0 +1,21 @@
+report_type,category,criterion,description
+Base,Institutional and Governance,Materiality Assessment,Evaluates material risks and impacts
+Base,Institutional and Governance,Sustainability Strategy/Principles,Outlines sustainability goals
+Base,Institutional and Governance,Management Approach to Material Topics,Approach to managing key topics
+Base,Institutional and Governance,"Governance Structure (Economic, Environmental, Social)","Structure for economic, environmental, and social governance"
+Base,Institutional and Governance,"Key Impacts, Risks, Opportunities","Identifies impacts, risks, and opportunities"
+Base,Institutional and Governance,"Anti-Fraud, Anti-Corruption, Anti-Competitive Practices","Policies against fraud, corruption, and anti-competitive behavior"
+Base,Economic,Direct Economic Performance,Revenue and profit metrics
+Base,Economic,Indirect Economic Performance,Economic impact on communities
+Base,Environmental,Energy Consumption and Efficiency,Tracks energy use and efficiency measures
+Base,Environmental,"Water Management (Use, Wastewater, Recycling)",Includes water use and recycling policies
+Base,Environmental,Greenhouse Gas Emissions,Measures CO2 and other emissions
+Base,Environmental,"Other Emissions and Effluents (e.g., NOx, SOx)","Tracks NOx, SOx, and other emissions"
+Base,Environmental,"Waste Management (Hazardous and Recycling)",Manages hazardous and recyclable waste
+Base,Environmental,Hazardous Chemicals and Substances,Handles hazardous substances
+Base,Social,Occupational Health and Safety,Employee safety programs and metrics
+Base,Social,Employee Data by Contract Type and Gender,Employee demographics by contract and gender
+Base,Social,Employee Training,Training programs for staff development
+Base,Social,Unfair Labor Practices and Human Rights,Labor and human rights policies
+Base,Social,"Diversity, Equal Opportunity, Discrimination",Diversity and inclusion efforts
+Base,Social,Worker Rights and Collective Agreements,Supports worker rights and collective bargaining

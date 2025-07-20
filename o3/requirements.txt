@@ -1,0 +1,15 @@
+PyPDF2
+pdf2image
+pytesseract
+pandas
+numpy
+torch
+transformers
+faiss-cpu
+openai
+nltk
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+httpx
+watchgod
