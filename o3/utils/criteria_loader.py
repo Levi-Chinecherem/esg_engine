@@ -33,12 +33,25 @@ def load_criteria(criteria_name: str = "indicator_name", criteria_file: str = os
     try:
         with open(criteria_file, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
-            if criteria_name not in reader.fieldnames:
-                logger.error(f"Column '{criteria_name}' not found in {criteria_file}")
+            fieldnames = reader.fieldnames
+            if not fieldnames:
+                logger.error(f"No columns found in {criteria_file}")
                 return criteria
 
+            # Auto-detect criteria column if criteria_name not found
+            if criteria_name not in fieldnames:
+                possible_columns = ["Indicator", "criterion", "name", "Criteria", "Indicator_Name"]
+                for col in possible_columns:
+                    if col in fieldnames:
+                        logger.warning(f"Column '{criteria_name}' not found, using '{col}' instead")
+                        criteria_name = col
+                        break
+                else:
+                    logger.error(f"Column '{criteria_name}' not found in {criteria_file}. Available columns: {', '.join(fieldnames)}")
+                    return criteria
+
             for row in reader:
-                category = row.get("category", "General")
+                category = row.get("category", "General")  # Use 'category' or fallback to "General"
                 criterion = row[criteria_name]
                 if category not in criteria["base"]:
                     criteria["base"][category] = []

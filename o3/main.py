@@ -19,6 +19,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 async def main():
+    """
+    Main function to process all PDFs in the input directory.
+    """
     input_dir = Path("data/input")
     pdf_files = list(input_dir.glob("*.pdf"))
     logger.info(f"Found {len(pdf_files)} PDF files to process")
@@ -30,8 +33,8 @@ async def main():
             logger.error(f"Failed to initialize state for {pdf_path.name}")
             continue
 
-        # Continue processing with super_brain
-        state = await super_brain(state)
+        # Continue processing with super_brain, using 'criterion' column from UNCTAD_datapoints.csv
+        state = await super_brain(state, criteria_name="criterion")
         if not state:
             logger.error(f"Super brain failed for {pdf_path.name}")
             continue

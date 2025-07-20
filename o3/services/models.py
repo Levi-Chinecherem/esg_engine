@@ -3,6 +3,12 @@ from typing import List, Dict
 import numpy as np
 from utils.standards_manager import StandardsManager
 
+"""
+Data models for ESG analysis.
+
+file path: services/models.py
+"""
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(name)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -18,10 +24,8 @@ class QueryResult:
         similarity (float): Similarity score of the match.
         status (str): Status of the criterion (✓ or ✗).
         verified_result (str): Verification result (e.g., IFRS S1, No evidence).
-        relevance (str): Relevance level (High, Medium, Low, Not Applicable).
-        percentage (float): Compliance percentage.
     """
-    def __init__(self, criterion: str, found_info: List[str], doc_id: int, page_num: List[int], similarity: float, status: str, verified_result: str, relevance: str, percentage: float):
+    def __init__(self, criterion: str, found_info: List[str], doc_id: int, page_num: List[int], similarity: float, status: str, verified_result: str):
         self.criterion = criterion
         self.found_info = found_info
         self.doc_id = doc_id
@@ -29,8 +33,6 @@ class QueryResult:
         self.similarity = similarity
         self.status = status
         self.verified_result = verified_result
-        self.relevance = relevance
-        self.percentage = percentage
 
     def dict(self):
         """
@@ -46,9 +48,7 @@ class QueryResult:
             "page_num": self.page_num,
             "similarity": self.similarity,
             "status": self.status,
-            "verified_result": self.verified_result,
-            "relevance": self.relevance,
-            "percentage": self.percentage
+            "verified_result": self.verified_result
         }
 
 class SystemState:
@@ -58,7 +58,6 @@ class SystemState:
     Attributes:
         documents (List[dict]): List of documents with their pages and metadata.
         report_type (str): Type of report (e.g., esg_report).
-        sector (str): Sector of the document (e.g., Energy).
         results (List[QueryResult]): List of analysis results.
         resource_usage (float): System resource usage percentage.
         active_agents (int): Number of active analysis agents.
@@ -66,15 +65,12 @@ class SystemState:
         chunks (List[str]): Text chunks from the document.
         sentences (List[dict]): Sentence metadata (content, page).
         sentence_embeddings (np.ndarray): Embeddings of sentences.
-        type_criteria (Dict): Criteria specific to report type.
-        sector_criteria (Dict): Criteria specific to sector.
         base_criteria (Dict): Base criteria for analysis.
         standards_manager (StandardsManager): Manager for IFRS standards.
     """
     def __init__(self, documents: List[dict], output_mode: str):
         self.documents = documents
-        self.report_type = None
-        self.sector = None
+        self.report_type = ""
         self.results = []
         self.resource_usage = 0.0
         self.active_agents = 0
@@ -82,7 +78,5 @@ class SystemState:
         self.chunks = []
         self.sentences = []
         self.sentence_embeddings = None
-        self.type_criteria = {}
-        self.sector_criteria = {}
         self.base_criteria = {}
         self.standards_manager = None

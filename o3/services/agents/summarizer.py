@@ -67,9 +67,7 @@ async def summarizer(state, original_filename: Optional[str] = None):
         report = generator.generate_report(
             cleaned_results,
             state.base_criteria,
-            state.report_type,
-            state.type_criteria,
-            state.sector_criteria
+            state.report_type
         )
 
         pdf_name = original_filename.rsplit(".", 1)[0] if original_filename else f"unknown_pdf_{state.documents[0]['id']}"

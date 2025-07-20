@@ -28,8 +28,9 @@ class ReportGenerator:
         """
         self.output_dir = output_dir
         self.output_dir.mkdir(exist_ok=True)
+        logger.info(f"Initialized ReportGenerator with output directory: {self.output_dir}")
 
-    def generate_report(self, analysis_results: List[Dict[str, Any]], categories: Dict[str, List[str]], report_type: str, type_criteria: Dict[str, Dict], sector_criteria: Dict[str, str]) -> Dict[str, Any]:
+    def generate_report(self, analysis_results: List[Dict[str, Any]], categories: Dict[str, List[str]], report_type: str) -> Dict[str, Any]:
         """
         Generate a structured report from analysis results.
 
@@ -37,12 +38,11 @@ class ReportGenerator:
             analysis_results (List[Dict[str, Any]]): List of analysis results for criteria.
             categories (Dict[str, List[str]]): Base criteria organized by category.
             report_type (str): Type of the report (e.g., esg_report).
-            type_criteria (Dict[str, Dict]): Type-specific criteria.
-            sector_criteria (Dict[str, str]): Sector-specific criteria priorities.
 
         Returns:
             Dict[str, Any]: Structured report dictionary.
         """
+        logger.info(f"Generating report for report type: {report_type}")
         report = {}
         for category, criteria in categories.items():
             report[category] = {}
@@ -54,9 +54,7 @@ class ReportGenerator:
                         "Location in Report": [],
                         "Details": "No relevant data found.",
                         "Status": "✗",
-                        "Verified Result": "No evidence",
-                        "Relevance": "",
-                        "Percentage": 0.0
+                        "Verified Result": "No evidence"
                     }
                     continue
 
@@ -73,10 +71,9 @@ class ReportGenerator:
                     "Location in Report": all_pages,
                     "Details": "\n".join(all_sentences),
                     "Status": validated_match.get("status", "✗"),
-                    "Verified Result": validated_match.get("verified_result", "No evidence"),
-                    "Relevance": validated_match.get("relevance", ""),
-                    "Percentage": validated_match.get("percentage", 0.0)
+                    "Verified Result": validated_match.get("verified_result", "No evidence")
                 }
+        logger.info(f"Generated report with {sum(len(crits) for crits in report.values())} entries")
         return report
 
     def _generate_csv_report(self, report: Dict[str, Any], filename: str):
@@ -89,7 +86,7 @@ class ReportGenerator:
         """
         rows = []
         for category, criteria in report.items():
-            rows.append({"Category": category, "Requirement": "", "Location in Report": "", "Details": "", "Status": "", "Verified Result": "", "Relevance": "", "Percentage": ""})
+            rows.append({"Category": category, "Requirement": "", "Location in Report": "", "Details": "", "Status": "", "Verified Result": ""})
             for crit, details in criteria.items():
                 rows.append({
                     "Category": "",
@@ -97,13 +94,11 @@ class ReportGenerator:
                     "Location in Report": ", ".join(map(str, details["Location in Report"])),
                     "Details": details["Details"],
                     "Status": details["Status"],
-                    "Verified Result": details["Verified Result"],
-                    "Relevance": details["Relevance"],
-                    "Percentage": f"{details['Percentage']}%"
+                    "Verified Result": details["Verified Result"]
                 })
-            rows.append({"Category": "", "Requirement": "", "Location in Report": "", "Details": "", "Status": "", "Verified Result": "", "Relevance": "", "Percentage": ""})
+            rows.append({"Category": "", "Requirement": "", "Location in Report": "", "Details": "", "Status": "", "Verified Result": ""})
 
-        columns = ["Category", "Requirement", "Location in Report", "Details", "Status", "Verified Result", "Relevance", "Percentage"]
+        columns = ["Category", "Requirement", "Location in Report", "Details", "Status", "Verified Result"]
         df = pd.DataFrame(rows, columns=columns)
         csv_path = self.output_dir / f"{filename}.csv"
         df.to_csv(csv_path, index=False, encoding='utf-8-sig')

@@ -21,6 +21,8 @@ logger = logging.getLogger(__name__)
 
 OPENAI_SEMAPHORE = asyncio.Semaphore(5)
 
+nltk.download('punkt', quiet=True)
+
 async def sub_agent(openai_client: AsyncOpenAI, state, criterion: str, doc_id: int, idx: str):
     """
     Analyze a single criterion against the document.
@@ -35,22 +37,7 @@ async def sub_agent(openai_client: AsyncOpenAI, state, criterion: str, doc_id: i
     Returns:
         dict: Analysis result for the criterion.
     """
-    logger.info(f"Sub-agent {idx}: Processing '{criterion}' for '{state.report_type}' in sector '{state.sector}'")
-
-    type_specific = state.type_criteria.get(criterion.split(" - ")[0], {}).get(criterion, None)
-    if type_specific and type_specific["additional_terms"] == ["not relevant"] and type_specific["description"] == "not relevant":
-        logger.info(f"Sub-agent {idx}: Skipping '{criterion}' as not relevant to '{state.report_type}'")
-        return {
-            "criterion": criterion,
-            "found_info": [f"Not processed: Criterion is not relevant to {state.report_type}"],
-            "doc_id": doc_id,
-            "page_num": [],
-            "similarity": 0.0,
-            "status": "✗",
-            "verified_result": "Not Applicable",
-            "relevance": "Not Applicable",
-            "percentage": 0.0
-        }
+    logger.info(f"Sub-agent {idx}: Processing '{criterion}' for '{state.report_type}'")
 
     analyzer = MinimumRequirementAnalyzer()
     criterion_embedding = (await analyzer.vectorize_chunks([criterion]))[0]
@@ -72,9 +59,7 @@ async def sub_agent(openai_client: AsyncOpenAI, state, criterion: str, doc_id: i
             "page_num": [],
             "similarity": 0.0,
             "status": "✗",
-            "verified_result": "No evidence",
-            "relevance": state.sector_criteria.get(criterion, ""),
-            "percentage": 0.0
+            "verified_result": "No evidence"
         }
 
     found_info = []
@@ -124,7 +109,5 @@ async def sub_agent(openai_client: AsyncOpenAI, state, criterion: str, doc_id: i
         "page_num": sorted(list(page_nums)),
         "similarity": similarity,
         "status": "✗",
-        "verified_result": "No evidence",
-        "relevance": state.sector_criteria.get(criterion, ""),
-        "percentage": 0.0
+        "verified_result": "No evidence"
     }

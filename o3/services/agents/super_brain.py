@@ -2,18 +2,15 @@ import asyncio
 import psutil
 import numpy as np
 import logging
-import json
+import nltk
 from typing import Optional
 from pathlib import Path
 import faiss
-import nltk
-from sklearn.metrics.pairwise import cosine_similarity
 
 from config import settings, INDEX_PATH, faiss_index
 from utils.pdf_parser import DocumentParser
 from utils.text_analyzer import MinimumRequirementAnalyzer
 from utils.criteria_loader import load_criteria
-from utils.sector_classifier import SectorClassifier
 from utils.standards_manager import StandardsManager
 from services.classifier import ReportClassifier
 from services.models import SystemState
@@ -27,15 +24,18 @@ file path: services/agents/super_brain.py
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(name)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-async def super_brain(state):
+nltk.download('punkt', quiet=True)
+
+async def super_brain(state, criteria_name: str = "criterion"):
     """
-    Initialize state, classify report type and sector, and load IFRS standards.
+    Initialize state, classify report type, and load UNCTAD criteria.
 
     Args:
         state (SystemState): The system state object containing document data.
+        criteria_name (str): Column name in UNCTAD_datapoints.csv for criteria (default: "indicator_name").
 
     Returns:
-        SystemState: Updated state with classified report type, sector, and criteria, or None on failure.
+        SystemState: Updated state with classified report type and criteria, or None on failure.
     """
     logger.info("Super Brain: Starting analysis")
 
@@ -73,48 +73,11 @@ async def super_brain(state):
     faiss.write_index(faiss_index, str(INDEX_PATH))
     logger.info(f"Super Brain: Indexed {len(state.sentences)} sentences")
 
-    criteria = load_criteria()
+    criteria = load_criteria(criteria_name=criteria_name)
     classifier = ReportClassifier()
     state.report_type = await classifier.classify(all_text)
     logger.info(f"Super Brain: Detected report type '{state.report_type}'")
 
-    sector_classifier = SectorClassifier()
-    detected_sector = await sector_classifier.classify(all_text)
-    logger.info(f"Super Brain: Detected sector '{detected_sector}'")
-    sector_criteria_dict = sector_classifier.get_sector_criteria(detected_sector)
-
-    sectors_json_path = Path(__file__).parent.parent.parent / "data" / "sectors.json"
-    try:
-        with open(sectors_json_path, "r") as f:
-            sector_data = json.load(f)
-        sector_names = [s["name"] for s in sector_data["sectors"]]
-        logger.info(f"Loaded sector data from {sectors_json_path} with {len(sector_names)} sectors")
-    except Exception as e:
-        logger.error(f"Failed to load sectors.json: {str(e)}")
-        raise
-
-    if not sector_criteria_dict or detected_sector not in sector_names:
-        logger.warning(f"Super Brain: No exact match for sector '{detected_sector}' in {sector_names}")
-        sector_embeddings = await analyzer.vectorize_chunks(sector_names)
-        detected_embedding = await analyzer.vectorize_chunks([detected_sector])
-        similarities = cosine_similarity(np.array(detected_embedding), np.array(sector_embeddings))[0]
-        best_match_idx = np.argmax(similarities)
-        best_match = sector_names[best_match_idx]
-        similarity_score = similarities[best_match_idx]
-        if similarity_score > 0.7:
-            state.sector = best_match
-            state.sector_criteria = next(s["criteria"] for s in sector_data["sectors"] if s["name"] == best_match)
-            logger.info(f"Super Brain: Semantically matched '{detected_sector}' to '{best_match}' (similarity: {similarity_score:.2f})")
-        else:
-            logger.error(f"Super Brain: No close semantic match for '{detected_sector}' (max similarity: {similarity_score:.2f})")
-            raise ValueError(f"No viable sector match for '{detected_sector}'")
-    else:
-        state.sector = detected_sector
-        state.sector_criteria = sector_criteria_dict
-
-    logger.info(f"Super Brain: Loaded {len(state.sector_criteria)} criteria for sector '{state.sector}'")
-
-    state.type_criteria = criteria.get(state.report_type, {})
     state.base_criteria = criteria.get("base", {})
     total_criteria = sum(len(crits) for crits in state.base_criteria.values())
     max_agents = min(total_criteria, max(1, int((settings.MAX_RESOURCE_USAGE - resource_usage) / 5)))
